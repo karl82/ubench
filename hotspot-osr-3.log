@@ -1,0 +1,2597 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hotspot_log version='160 1' process='6408' time_ms='1386795606072'>
+<vm_version>
+<name>
+Java HotSpot(TM) 64-Bit Server VM
+</name>
+<release>
+24.45-b08
+</release>
+<info>
+Java HotSpot(TM) 64-Bit Server VM (24.45-b08) for linux-amd64 JRE (1.7.0_45-b18), built on Oct  8 2013 05:44:25 by &quot;java_re&quot; with gcc 4.3.0 20080428 (Red Hat 4.3.0-8)
+</info>
+</vm_version>
+<vm_arguments>
+<args>
+-XX:+UnlockDiagnosticVMOptions -XX:+TraceClassLoading -XX:+LogCompilation -XX:+PrintAssembly -XX:+PrintInlining -Didea.launcher.port=7532 -Didea.launcher.bin.path=/home/karl/opt/idea-IU-129.161/bin -Dfile.encoding=UTF-8 
+</args>
+<command>
+com.intellij.rt.execution.application.AppMain cz.rank.ubench.osr.SynchronizationTest3
+</command>
+<launcher>
+SUN_STANDARD
+</launcher>
+<properties>
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.version=24.45-b08
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vm.info=mixed mode, sharing
+java.ext.dirs=/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/ext:/usr/java/packages/lib/ext
+java.endorsed.dirs=/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/endorsed
+sun.boot.library.path=/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/amd64
+java.library.path=/home/karl/opt/idea/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.home=/usr/lib/jvm/jdk-7-oracle-x64/jre
+java.class.path=/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/management-agent.jar:/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/jfxrt.jar:/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/charsets.jar:/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/jsse.jar:/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar:/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/plugin.jar:/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/jfr.jar:/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/deploy.jar:/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/javaws.jar:/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/resources.jar:/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/jce.jar:/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/ext/sunec.jar:/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/ext/localedata.jar:/home/karl/src/ubench/out/production/ubench:/home/karl/opt/idea-IU-129.161/lib/idea_rt.jar
+sun.boot.class.path=/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/resources.jar:/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar:/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/sunrsasign.jar:/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/jsse.jar:/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/jce.jar:/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/charsets.jar:/usr/lib/jvm/jdk-7-oracle-x64/jre/lib/jfr.jar:/usr/lib/jvm/jdk-7-oracle-x64/jre/classes
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.7
+java.vm.vendor=Oracle Corporation
+idea.launcher.port=7532
+idea.launcher.bin.path=/home/karl/opt/idea-IU-129.161/bin
+file.encoding=UTF-8
+sun.java.command=com.intellij.rt.execution.application.AppMain cz.rank.ubench.osr.SynchronizationTest3
+sun.java.launcher=SUN_STANDARD
+</properties>
+</vm_arguments>
+<tty>
+Java HotSpot(TM) 64-Bit Server VM warning: PrintAssembly is enabled; turning on DebugNonSafepoints to gain additional output
+<writer thread='140215394289408'/>
+[Opened /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Object from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.Serializable from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Comparable from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.CharSequence from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.String from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.reflect.GenericDeclaration from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.reflect.Type from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.reflect.AnnotatedElement from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Class from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Cloneable from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ClassLoader from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.System from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Throwable from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Error from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ThreadDeath from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Exception from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.RuntimeException from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.security.ProtectionDomain from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.security.AccessControlContext from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ReflectiveOperationException from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ClassNotFoundException from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.LinkageError from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.NoClassDefFoundError from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ClassCastException from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ArrayStoreException from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.VirtualMachineError from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.OutOfMemoryError from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.StackOverflowError from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.IllegalMonitorStateException from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ref.Reference from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ref.SoftReference from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ref.WeakReference from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ref.FinalReference from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ref.PhantomReference from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ref.Finalizer from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Runnable from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Thread from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Thread$UncaughtExceptionHandler from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ThreadGroup from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Map from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Dictionary from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Hashtable from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Properties from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.reflect.AccessibleObject from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.reflect.Member from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.reflect.Field from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.reflect.Method from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.reflect.Constructor from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.reflect.MagicAccessorImpl from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.reflect.MethodAccessor from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.reflect.MethodAccessorImpl from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.reflect.ConstructorAccessor from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.reflect.ConstructorAccessorImpl from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.reflect.DelegatingClassLoader from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.reflect.ConstantPool from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.reflect.FieldAccessor from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.reflect.FieldAccessorImpl from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.reflect.UnsafeFieldAccessorImpl from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.reflect.UnsafeStaticFieldAccessorImpl from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.invoke.MethodHandle from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.invoke.MemberName from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.invoke.MethodHandleNatives from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.invoke.LambdaForm from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.invoke.MethodType from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.BootstrapMethodError from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.invoke.CallSite from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.invoke.ConstantCallSite from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.invoke.MutableCallSite from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.invoke.VolatileCallSite from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Appendable from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.AbstractStringBuilder from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.StringBuffer from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.StringBuilder from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.StackTraceElement from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.nio.Buffer from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.PostVMInitHook from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Boolean from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Character from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Number from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Float from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Double from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Byte from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Short from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Integer from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Long from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.NullPointerException from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ArithmeticException from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.ObjectStreamField from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Comparator from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.String$CaseInsensitiveComparator from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.security.Guard from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.security.Permission from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.security.BasicPermission from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.RuntimePermission from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.security.AccessController from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.reflect.ReflectPermission from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.security.PrivilegedAction from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.reflect.ReflectionFactory$GetReflectionFactoryAction from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.security.cert.Certificate from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Iterable from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Collection from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.List from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.RandomAccess from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.AbstractCollection from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.AbstractList from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Vector from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Stack from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.reflect.ReflectionFactory from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ref.Reference$Lock from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ref.Reference$ReferenceHandler from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ref.ReferenceQueue from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ref.ReferenceQueue$Null from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ref.ReferenceQueue$Lock from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ref.Finalizer$FinalizerThread from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Map$Entry from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Hashtable$Entry from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Math from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.VM from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.nio.charset.Charset from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.nio.charset.spi.CharsetProvider from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.nio.cs.FastCharsetProvider from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.nio.cs.StandardCharsets from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.AbstractMap from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.util.PreHashedMap from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.nio.cs.StandardCharsets$Aliases from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.nio.cs.StandardCharsets$Classes from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.nio.cs.StandardCharsets$Cache from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ThreadLocal from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicInteger from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.Unsafe from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.IncompatibleClassChangeError from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.NoSuchMethodError from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.ArrayList from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Collections from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Set from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.AbstractSet from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Collections$EmptySet from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Collections$EmptyList from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Collections$EmptyMap from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Collections$UnmodifiableCollection from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Collections$UnmodifiableList from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Collections$UnmodifiableRandomAccessList from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.reflect.Reflection from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.HashMap from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.HashMap$Entry from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.HashMap$EntrySet from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Iterator from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.HashMap$HashIterator from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.HashMap$EntryIterator from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Class$3 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.reflect.Modifier from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.reflect.LangReflectAccess from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.reflect.ReflectAccess from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Arrays from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.nio.cs.HistoricallyNamedCharset from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.nio.cs.Unicode from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.nio.cs.UTF_8 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Class$1 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.reflect.ReflectionFactory$1 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.reflect.NativeConstructorAccessorImpl from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.reflect.DelegatingConstructorAccessorImpl from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.StringCoding from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ThreadLocal$ThreadLocalMap from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ThreadLocal$ThreadLocalMap$Entry from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.StringCoding$StringDecoder from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.nio.cs.ArrayDecoder from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.nio.charset.CharsetDecoder from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.nio.cs.UTF_8$Decoder from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.nio.charset.CodingErrorAction from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Hashtable$EntrySet from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Collections$SynchronizedCollection from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Collections$SynchronizedSet from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Enumeration from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Hashtable$Enumerator from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Runtime from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.Version from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.AutoCloseable from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.Closeable from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.InputStream from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.FileInputStream from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.FileDescriptor from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.JavaIOFileDescriptorAccess from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.FileDescriptor$1 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.SharedSecrets from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.Flushable from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.OutputStream from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.FileOutputStream from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.FilterInputStream from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.BufferedInputStream from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicReferenceFieldUpdater from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.reflect.misc.ReflectUtil from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.reflect.Proxy from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.reflect.InvocationHandler from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.WeakHashMap from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.Hashing from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.WeakHashMap$Entry from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Collections$SynchronizedMap from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.FilterOutputStream from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.PrintStream from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.BufferedOutputStream from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.Writer from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.OutputStreamWriter from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.nio.cs.StreamEncoder from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.security.action.GetPropertyAction from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.nio.cs.ArrayEncoder from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.nio.charset.CharsetEncoder from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.nio.cs.UTF_8$Encoder from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.nio.ByteBuffer from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.nio.HeapByteBuffer from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.nio.Bits from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.nio.ByteOrder from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.JavaNioAccess from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.nio.Bits$1 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.BufferedWriter from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.File from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.FileSystem from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.UnixFileSystem from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.ExpiringCache from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.LinkedHashMap from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.ExpiringCache$1 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.LinkedHashMap$Entry from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ClassLoader$3 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Enum from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.File$PathStatus from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.StringCoding$StringEncoder from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.ExpiringCache$Entry from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ClassLoader$NativeLibrary from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Terminator from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.SignalHandler from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Terminator$1 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.Signal from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.NativeSignalHandler from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.OSEnvironment from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.JavaLangAccess from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.System$2 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.IllegalArgumentException from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Compiler from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Compiler$1 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.Launcher from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.URLStreamHandlerFactory from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.Launcher$Factory from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.security.SecureClassLoader from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.URLClassLoader from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.Launcher$ExtClassLoader from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.security.util.Debug from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.ClassLoader$ParallelLoaders from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Random from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.concurrent.ThreadLocalRandom from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicLong from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.concurrent.ThreadLocalRandom$1 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.WeakHashMap$Holder from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Collections$SetFromMap from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.WeakHashMap$KeySet from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.JavaNetAccess from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.URLClassLoader$7 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.StringTokenizer from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.security.PrivilegedExceptionAction from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.Launcher$ExtClassLoader$1 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.MetaIndex from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Readable from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.Reader from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.BufferedReader from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.InputStreamReader from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.FileReader from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.nio.cs.StreamDecoder from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.nio.CharBuffer from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.nio.HeapCharBuffer from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.nio.charset.CoderResult from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.nio.charset.CoderResult$Cache from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.nio.charset.CoderResult$1 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.nio.charset.CoderResult$2 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.IoTrace from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.reflect.Array from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.HashMap$Holder from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.net.www.ParseUtil from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.BitSet from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.URL from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Hashtable$Holder from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.URL$1 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Locale from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.util.locale.LocaleObjectCache from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Locale$Cache from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.concurrent.ConcurrentMap from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$HashEntry from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.concurrent.locks.Lock from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.concurrent.locks.ReentrantLock from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$Segment from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$Holder from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.concurrent.locks.AbstractOwnableSynchronizer from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.concurrent.locks.AbstractQueuedSynchronizer from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.concurrent.locks.ReentrantLock$Sync from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.concurrent.locks.ReentrantLock$NonfairSync from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.concurrent.locks.AbstractQueuedSynchronizer$Node from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.util.locale.BaseLocale from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.util.locale.BaseLocale$Cache from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.util.locale.BaseLocale$Key from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.util.locale.LocaleObjectCache$CacheEntry from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Locale$LocaleKey from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.util.locale.LocaleUtils from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.CharacterData from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.CharacterDataLatin1 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.Parts from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.URLStreamHandler from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.net.www.protocol.file.Handler from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.JavaSecurityAccess from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.security.ProtectionDomain$1 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.JavaSecurityProtectionDomainAccess from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.security.ProtectionDomain$3 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.security.CodeSource from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.security.ProtectionDomain$Key from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.security.Principal from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.HashSet from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.URLClassPath from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.net.www.protocol.jar.Handler from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.Launcher$AppClassLoader from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.Launcher$AppClassLoader$1 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.SystemClassLoaderAction from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+<writer thread='140215082792704'/>
+<thread_logfile thread='1580447488' filename='/tmp/hs_c140215082792704_pid6408.log'/>
+<writer thread='140215081740032'/>
+<thread_logfile thread='1579394816' filename='/tmp/hs_c140215081740032_pid6408.log'/>
+<writer thread='140215394289408'/>
+[Loaded sun.launcher.LauncherHelper from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.URLClassLoader$1 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.net.util.URLUtil from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.URLClassPath$3 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.URLClassPath$Loader from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.URLClassPath$JarLoader from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.zip.ZipConstants from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.zip.ZipFile from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.JavaUtilZipFileAccess from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.zip.ZipFile$2 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.security.PrivilegedActionException from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.URLClassPath$JarLoader$1 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.FileURLMapper from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.jar.JarFile from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.JavaUtilJarAccess from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.jar.JavaUtilJarAccessImpl from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.nio.charset.StandardCharsets from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.nio.cs.US_ASCII from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.nio.cs.ISO_8859_1 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.nio.cs.UTF_16BE from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.nio.cs.UTF_16LE from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.nio.cs.UTF_16 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Queue from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Deque from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.ArrayDeque from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.zip.ZipCoder from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.PerfCounter from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.Perf$GetPerfAction from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.Perf from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.PerfCounter$CoreCounters from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.nio.ch.DirectBuffer from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.nio.MappedByteBuffer from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.nio.DirectByteBuffer from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.nio.LongBuffer from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.nio.DirectLongBufferU from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.JarIndex from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.ExtensionDependency from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.zip.ZipEntry from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.jar.JarEntry from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.jar.JarFile$JarFileEntry from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.zip.ZipFile$ZipFileInputStream from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.zip.Inflater from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.zip.ZStreamRef from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.zip.InflaterInputStream from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.zip.ZipFile$ZipFileInflaterInputStream from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.IOUtils from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.URLClassPath$FileLoader from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+<task_queued compile_id='1' method='java/lang/String indexOf (II)I' bytes='70' count='306' backedge_count='5000' iicount='306' stamp='0.083' comment='count' hot_count='306'/>
+[Loaded sun.misc.Resource from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.URLClassPath$JarLoader$2 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.jar.Manifest from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.ByteArrayInputStream from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.jar.Attributes from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.jar.Manifest$FastInputStream from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.jar.Attributes$Name from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.ASCIICaseInsensitiveComparator from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.jar.JarVerifier from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.security.CodeSigner from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.jar.JarVerifier$3 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.ByteArrayOutputStream from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Package from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.security.util.ManifestEntryVerifier from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.CharacterDecoder from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.BASE64Decoder from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.security.util.SignatureFileVerifier from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.nio.ByteBuffered from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.security.PermissionCollection from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.security.Permissions from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.URLConnection from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.net.www.URLConnection from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.net.www.protocol.file.FileURLConnection from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.net.www.MessageHeader from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.FilePermission from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.FilePermission$1 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.FilePermissionCollection from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.security.AllPermission from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.security.UnresolvedPermission from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.security.BasicPermissionCollection from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded com.intellij.rt.execution.application.AppMain from file:/home/karl/opt/idea-IU-129.161/lib/idea_rt.jar]
+[Loaded java.lang.reflect.InvocationTargetException from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.UnsatisfiedLinkError from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Void from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Integer$IntegerCache from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded com.intellij.rt.execution.application.AppMain$1 from file:/home/karl/opt/idea-IU-129.161/lib/idea_rt.jar]
+[Loaded java.lang.SecurityException from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.io.IOException from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.misc.URLClassPath$FileLoader$1 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+<task_queued compile_id='2' method='java/lang/String hashCode ()I' bytes='55' count='604' backedge_count='5000' iicount='604' stamp='0.095' comment='count' hot_count='604'/>
+<writer thread='140215075796736'/>
+[Loaded java.net.ServerSocket from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+<writer thread='140215394289408'/>
+[Loaded cz.rank.ubench.osr.SynchronizationTest3 from file:/home/karl/src/ubench/out/production/ubench/]
+[Loaded java.lang.IllegalAccessException from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.annotation.Annotation from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.reflect.TypeVariable from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.reflect.NativeMethodAccessorImpl from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.reflect.DelegatingMethodAccessorImpl from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+<writer thread='140215075796736'/>
+[Loaded java.net.SocksConsts from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.SocketOptions from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.SocketImpl from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.AbstractPlainSocketImpl from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+<writer thread='140215394289408'/>
+<task_queued compile_id='3' method='cz/rank/ubench/osr/SynchronizationTest3 testX ()V' bytes='11' count='5000' backedge_count='1' iicount='10000' stamp='0.098' comment='count' hot_count='10000'/>
+<writer thread='140215075796736'/>
+[Loaded java.net.PlainSocketImpl from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.SocksSocketImpl from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+<writer thread='140215394289408'/>
+<task_queued compile_id='4' compile_kind='osr' method='cz/rank/ubench/osr/SynchronizationTest3 doTestX (I)V' bytes='80' count='1' backedge_count='14563' iicount='1' osr_bci='7' stamp='0.099' comment='backedge_count' hot_count='14563'/>
+<writer thread='140215075796736'/>
+[Loaded sun.security.action.LoadLibraryAction from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.SocketAddress from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.InetSocketAddress from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.InetAddress from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.InetSocketAddress$InetSocketAddressHolder from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.security.action.GetBooleanAction from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.InetAddress$InetAddressHolder from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.InetAddress$Cache from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.InetAddress$Cache$Type from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.InetAddressImplFactory from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.InetAddressImpl from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.Inet6AddressImpl from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.net.spi.nameservice.NameService from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.InetAddress$1 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.Inet4AddressImpl from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.Inet4Address from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.SocketException from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+<writer thread='140215081740032'/>
+<writer thread='140215075796736'/>
+[Loaded sun.net.NetHooks from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.net.NetHooks$Provider from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded sun.net.sdp.SdpProvider from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.Inet6Address from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.Inet6Address$Inet6AddressHolder from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.net.Socket from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+<writer thread='140215081740032'/>
+Could not load hsdis-amd64.so; library not loadable; PrintAssembly is disabled
+<nmethod compile_id='2' compiler='C2' entry='0x00007f866505f6a0' size='1296' address='0x00007f866505f550' relocation_offset='288' insts_offset='336' stub_offset='688' scopes_data_offset='720' scopes_pcs_offset='824' dependencies_offset='1272' nul_chk_table_offset='1280' oops_offset='712' method='java/lang/String hashCode ()I' bytes='55' count='631' backedge_count='5513' iicount='631' stamp='0.109'/>
+<nmethod compile_id='3' compiler='C2' entry='0x00007f866505f480' size='488' address='0x00007f866505f350' relocation_offset='288' insts_offset='304' stub_offset='368' scopes_data_offset='400' scopes_pcs_offset='416' dependencies_offset='480' oops_offset='392' method='cz/rank/ubench/osr/SynchronizationTest3 testX ()V' bytes='11' count='8897' backedge_count='1' iicount='88887' stamp='0.110'/>
+                            @ 15   cz.rank.ubench.osr.SynchronizationTest3::testX (11 bytes)   inline (hot)
+                            @ 24   java.lang.System::nanoTime (0 bytes)   (intrinsic)
+<nmethod compile_id='4' compile_kind='osr' compiler='C2' entry='0x00007f8665063320' size='1568' address='0x00007f86650631d0' relocation_offset='288' insts_offset='336' stub_offset='720' scopes_data_offset='784' scopes_pcs_offset='1016' dependencies_offset='1544' nul_chk_table_offset='1552' oops_offset='744' method='cz/rank/ubench/osr/SynchronizationTest3 doTestX (I)V' bytes='80' count='10000' backedge_count='5041' iicount='1' stamp='0.114'/>
+<writer thread='140215394289408'/>
+<uncommon_trap thread='140215394289408' reason='null_assert' action='make_not_entrant' compile_id='4' compile_kind='osr' compiler='C2' stamp='0.114'>
+<jvms bci='54' method='cz/rank/ubench/osr/SynchronizationTest3 doTestX (I)V' bytes='80' count='10000' backedge_count='6024' iicount='1'/>
+</uncommon_trap>
+<make_not_entrant thread='140215394289408' compile_id='4' compile_kind='osr' compiler='C2' stamp='0.114'/>
+[Loaded java.util.Formatter from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.regex.Pattern from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.regex.Pattern$Node from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.regex.Pattern$4 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+<writer thread='140215082792704'/>
+                            @ 66   java.lang.String::indexOfSupplementary (71 bytes)   too big
+<writer thread='140215394289408'/>
+[Loaded java.util.regex.Pattern$LastNode from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.regex.Pattern$GroupHead from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.regex.Pattern$CharProperty from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.regex.Pattern$BmpCharProperty from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.regex.Pattern$Single from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.regex.Pattern$GroupTail from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.regex.Pattern$Ctype from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.regex.Pattern$Curly from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.regex.Pattern$Ques from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.regex.Pattern$BranchConn from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.regex.Pattern$Branch from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.regex.Pattern$BitClass from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.regex.Pattern$1 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.regex.Pattern$5 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.regex.Pattern$SliceNode from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.regex.Pattern$Slice from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.regex.Pattern$Begin from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+<writer thread='140215082792704'/>
+<nmethod compile_id='1' compiler='C2' entry='0x00007f8665062ce0' size='1536' address='0x00007f8665062b90' relocation_offset='288' insts_offset='336' stub_offset='720' scopes_data_offset='768' scopes_pcs_offset='896' dependencies_offset='1488' handler_table_offset='1496' nul_chk_table_offset='1520' oops_offset='760' method='java/lang/String indexOf (II)I' bytes='70' count='413' backedge_count='7899' iicount='413' stamp='0.117'/>
+<writer thread='140215394289408'/>
+[Loaded java.util.regex.Pattern$First from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.regex.Pattern$Start from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.regex.Pattern$TreeInfo from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Locale$Category from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Locale$1 from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.regex.MatchResult from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.regex.Matcher from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.regex.ASCII from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Formatter$FormatString from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Formatter$FixedString from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Formatter$FormatSpecifier from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Formatter$Flags from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.util.Formatter$Conversion from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+<task_queued compile_id='5' method='cz/rank/ubench/osr/SynchronizationTest3 testY ()V' bytes='11' count='5000' backedge_count='1' iicount='10000' stamp='0.121' comment='count' hot_count='10000'/>
+<writer thread='140215081740032'/>
+<writer thread='140215394289408'/>
+<task_queued compile_id='6' compile_kind='osr' method='cz/rank/ubench/osr/SynchronizationTest3 doTextY (I)V' bytes='80' count='1' backedge_count='14563' iicount='1' osr_bci='7' stamp='0.122' comment='backedge_count' hot_count='14563'/>
+<writer thread='140215081740032'/>
+<nmethod compile_id='5' compiler='C2' entry='0x00007f8665061500' size='1008' address='0x00007f86650613d0' relocation_offset='288' insts_offset='304' stub_offset='816' scopes_data_offset='856' scopes_pcs_offset='888' dependencies_offset='1000' oops_offset='840' method='cz/rank/ubench/osr/SynchronizationTest3 testY ()V' bytes='11' count='5038' backedge_count='1' iicount='25041' stamp='0.124'/>
+<writer thread='140215082792704'/>
+              s             @ 15   cz.rank.ubench.osr.SynchronizationTest3::testY (11 bytes)   inline (hot)
+                            @ 24   java.lang.System::nanoTime (0 bytes)   (intrinsic)
+                            @ 63   java.lang.Integer::valueOf (54 bytes)   too big
+                            @ 71   java.lang.Long::valueOf (36 bytes)   too big
+               !m           @ 75   java.io.PrintStream::format (86 bytes)   too big
+<nmethod compile_id='6' compile_kind='osr' compiler='C2' entry='0x00007f8665060820' size='3360' address='0x00007f8665060690' relocation_offset='288' insts_offset='400' stub_offset='2000' scopes_data_offset='2120' scopes_pcs_offset='2496' dependencies_offset='3232' handler_table_offset='3240' nul_chk_table_offset='3336' oops_offset='2072' method='cz/rank/ubench/osr/SynchronizationTest3 doTextY (I)V' bytes='80' count='10000' backedge_count='5320' iicount='1' stamp='0.131'/>
+<writer thread='140215394289408'/>
+<task_queued compile_id='7' method='cz/rank/ubench/osr/SynchronizationTest3 testZ ()V' bytes='25' count='5000' backedge_count='1' iicount='10000' stamp='0.246' comment='count' hot_count='10000'/>
+<task_queued compile_id='8' compile_kind='osr' method='cz/rank/ubench/osr/SynchronizationTest3 doTestZ (I)V' bytes='80' count='1' backedge_count='14563' iicount='1' osr_bci='7' stamp='0.247' comment='backedge_count' hot_count='14563'/>
+<writer thread='140215081740032'/>
+<nmethod compile_id='7' compiler='C2' entry='0x00007f8665065640' size='1032' address='0x00007f8665065510' relocation_offset='288' insts_offset='304' stub_offset='816' scopes_data_offset='856' scopes_pcs_offset='896' dependencies_offset='1024' oops_offset='840' method='cz/rank/ubench/osr/SynchronizationTest3 testZ ()V' bytes='25' count='6673' backedge_count='1' iicount='26684' stamp='0.250'/>
+<writer thread='140215082792704'/>
+               !m           @ 15   cz.rank.ubench.osr.SynchronizationTest3::testZ (25 bytes)   inline (hot)
+                            @ 24   java.lang.System::nanoTime (0 bytes)   (intrinsic)
+                            @ 63   java.lang.Integer::valueOf (54 bytes)   too big
+                            @ 71   java.lang.Long::valueOf (36 bytes)   too big
+               !m           @ 75   java.io.PrintStream::format (86 bytes)   too big
+<nmethod compile_id='8' compile_kind='osr' compiler='C2' entry='0x00007f8665065de0' size='3392' address='0x00007f8665065c50' relocation_offset='288' insts_offset='400' stub_offset='2000' scopes_data_offset='2120' scopes_pcs_offset='2512' dependencies_offset='3264' handler_table_offset='3272' nul_chk_table_offset='3368' oops_offset='2072' method='cz/rank/ubench/osr/SynchronizationTest3 doTestZ (I)V' bytes='80' count='10000' backedge_count='5071' iicount='1' stamp='0.265'/>
+<writer thread='140215394289408'/>
+<task_queued compile_id='9' method='cz/rank/ubench/osr/SynchronizationTest3 testV ()V' bytes='11' count='5000' backedge_count='1' iicount='10000' stamp='0.378' comment='count' hot_count='10000'/>
+<writer thread='140215081740032'/>
+<writer thread='140215394289408'/>
+<task_queued compile_id='10' compile_kind='osr' method='cz/rank/ubench/osr/SynchronizationTest3 doTestV (I)V' bytes='80' count='1' backedge_count='14563' iicount='1' osr_bci='7' stamp='0.378' comment='backedge_count' hot_count='14563'/>
+<writer thread='140215081740032'/>
+<nmethod compile_id='9' compiler='C2' entry='0x00007f8665065a80' size='520' address='0x00007f8665065950' relocation_offset='288' insts_offset='304' stub_offset='400' scopes_data_offset='432' scopes_pcs_offset='448' dependencies_offset='512' oops_offset='424' method='cz/rank/ubench/osr/SynchronizationTest3 testV ()V' bytes='11' count='5376' backedge_count='1' iicount='15384' stamp='0.378'/>
+<writer thread='140215082792704'/>
+                            @ 15   cz.rank.ubench.osr.SynchronizationTest3::testV (11 bytes)   inline (hot)
+                            @ 24   java.lang.System::nanoTime (0 bytes)   (intrinsic)
+                            @ 63   java.lang.Integer::valueOf (54 bytes)   too big
+                            @ 71   java.lang.Long::valueOf (36 bytes)   too big
+               !m           @ 75   java.io.PrintStream::format (86 bytes)   too big
+<nmethod compile_id='10' compile_kind='osr' compiler='C2' entry='0x00007f86650688c0' size='2336' address='0x00007f8665068750' relocation_offset='288' insts_offset='368' stub_offset='1136' scopes_data_offset='1256' scopes_pcs_offset='1544' dependencies_offset='2216' handler_table_offset='2224' nul_chk_table_offset='2320' oops_offset='1208' method='cz/rank/ubench/osr/SynchronizationTest3 doTestV (I)V' bytes='80' count='10000' backedge_count='5222' iicount='1' stamp='0.395'/>
+<writer thread='140215394289408'/>
+<task_queued compile_id='11' method='cz/rank/ubench/osr/SynchronizationTest3 doTestX (I)V' bytes='80' count='5000' backedge_count='5000' iicount='2' decompiles='1' null_assert_traps='1' stamp='0.433' comment='count' hot_count='10001'/>
+<writer thread='140215081740032'/>
+                            @ 0   java.lang.System::nanoTime (0 bytes)   (intrinsic)
+                            @ 15   cz.rank.ubench.osr.SynchronizationTest3::testX (11 bytes)   inline (hot)
+                            @ 24   java.lang.System::nanoTime (0 bytes)   (intrinsic)
+                            @ 63   java.lang.Integer::valueOf (54 bytes)   too big
+                            @ 71   java.lang.Long::valueOf (36 bytes)   too big
+               !m           @ 75   java.io.PrintStream::format (86 bytes)   too big
+<nmethod compile_id='11' compiler='C2' entry='0x00007f8665063980' size='1864' address='0x00007f8665063810' relocation_offset='288' insts_offset='368' stub_offset='880' scopes_data_offset='992' scopes_pcs_offset='1232' dependencies_offset='1760' handler_table_offset='1768' oops_offset='952' method='cz/rank/ubench/osr/SynchronizationTest3 doTestX (I)V' bytes='80' count='10000' backedge_count='5909' iicount='2' decompiles='1' null_assert_traps='1' stamp='0.447'/>
+<writer thread='140215394289408'/>
+<task_queued compile_id='12' compile_kind='osr' method='cz/rank/ubench/osr/SynchronizationTest3 doTestX (I)V' bytes='80' count='10000' backedge_count='6024' iicount='2' decompiles='1' null_assert_traps='1' osr_bci='7' stamp='0.447' comment='backedge_count' hot_count='6024'/>
+<writer thread='140215082792704'/>
+                            @ 15   cz.rank.ubench.osr.SynchronizationTest3::testX (11 bytes)   inline (hot)
+                            @ 24   java.lang.System::nanoTime (0 bytes)   (intrinsic)
+                            @ 63   java.lang.Integer::valueOf (54 bytes)   too big
+                            @ 71   java.lang.Long::valueOf (36 bytes)   too big
+               !m           @ 75   java.io.PrintStream::format (86 bytes)   too big
+<nmethod compile_id='12' compile_kind='osr' compiler='C2' entry='0x00007f8665069200' size='2224' address='0x00007f8665069090' relocation_offset='288' insts_offset='368' stub_offset='1008' scopes_data_offset='1128' scopes_pcs_offset='1416' dependencies_offset='2104' handler_table_offset='2112' nul_chk_table_offset='2208' oops_offset='1080' method='cz/rank/ubench/osr/SynchronizationTest3 doTestX (I)V' bytes='80' count='10000' backedge_count='5297' iicount='2' decompiles='1' null_assert_traps='1' stamp='0.458'/>
+<writer thread='140215394289408'/>
+<task_queued compile_id='13' method='cz/rank/ubench/osr/SynchronizationTest3 doTextY (I)V' bytes='80' count='5000' backedge_count='5000' iicount='2' stamp='0.459' comment='count' hot_count='10001'/>
+<writer thread='140215081740032'/>
+                            @ 0   java.lang.System::nanoTime (0 bytes)   (intrinsic)
+              s             @ 15   cz.rank.ubench.osr.SynchronizationTest3::testY (11 bytes)   inline (hot)
+                            @ 24   java.lang.System::nanoTime (0 bytes)   (intrinsic)
+                            @ 63   java.lang.Integer::valueOf (54 bytes)   too big
+                            @ 71   java.lang.Long::valueOf (36 bytes)   too big
+               !m           @ 75   java.io.PrintStream::format (86 bytes)   too big
+<nmethod compile_id='13' compiler='C2' entry='0x00007f8665067a20' size='3704' address='0x00007f8665067890' relocation_offset='288' insts_offset='400' stub_offset='2352' scopes_data_offset='2472' scopes_pcs_offset='2800' dependencies_offset='3600' handler_table_offset='3608' oops_offset='2424' method='cz/rank/ubench/osr/SynchronizationTest3 doTextY (I)V' bytes='80' count='5000' backedge_count='6024' iicount='2' stamp='0.466'/>
+<writer thread='140215394289408'/>
+<task_queued compile_id='14' method='cz/rank/ubench/osr/SynchronizationTest3 doTestZ (I)V' bytes='80' count='5000' backedge_count='5000' iicount='2' stamp='0.575' comment='count' hot_count='10001'/>
+<writer thread='140215082792704'/>
+                            @ 0   java.lang.System::nanoTime (0 bytes)   (intrinsic)
+               !m           @ 15   cz.rank.ubench.osr.SynchronizationTest3::testZ (25 bytes)   inline (hot)
+                            @ 24   java.lang.System::nanoTime (0 bytes)   (intrinsic)
+                            @ 63   java.lang.Integer::valueOf (54 bytes)   too big
+                            @ 71   java.lang.Long::valueOf (36 bytes)   too big
+               !m           @ 75   java.io.PrintStream::format (86 bytes)   too big
+<nmethod compile_id='14' compiler='C2' entry='0x00007f8665066b60' size='3704' address='0x00007f86650669d0' relocation_offset='288' insts_offset='400' stub_offset='2352' scopes_data_offset='2472' scopes_pcs_offset='2800' dependencies_offset='3600' handler_table_offset='3608' oops_offset='2424' method='cz/rank/ubench/osr/SynchronizationTest3 doTestZ (I)V' bytes='80' count='5000' backedge_count='6024' iicount='2' stamp='0.590'/>
+<writer thread='140215394289408'/>
+<task_queued compile_id='15' method='cz/rank/ubench/osr/SynchronizationTest3 doTestV (I)V' bytes='80' count='5000' backedge_count='5000' iicount='2' stamp='0.692' comment='count' hot_count='10001'/>
+<writer thread='140215081740032'/>
+                            @ 0   java.lang.System::nanoTime (0 bytes)   (intrinsic)
+                            @ 15   cz.rank.ubench.osr.SynchronizationTest3::testV (11 bytes)   inline (hot)
+                            @ 24   java.lang.System::nanoTime (0 bytes)   (intrinsic)
+                            @ 63   java.lang.Integer::valueOf (54 bytes)   too big
+                            @ 71   java.lang.Long::valueOf (36 bytes)   too big
+               !m           @ 75   java.io.PrintStream::format (86 bytes)   too big
+<nmethod compile_id='15' compiler='C2' entry='0x00007f866506b9c0' size='1968' address='0x00007f866506b850' relocation_offset='288' insts_offset='368' stub_offset='1008' scopes_data_offset='1120' scopes_pcs_offset='1352' dependencies_offset='1864' handler_table_offset='1872' oops_offset='1080' method='cz/rank/ubench/osr/SynchronizationTest3 doTestV (I)V' bytes='80' count='5000' backedge_count='6024' iicount='2' stamp='0.700'/>
+<writer thread='140215394289408'/>
+[Loaded java.lang.Shutdown from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+[Loaded java.lang.Shutdown$Lock from /usr/lib/jvm/jdk-7-oracle-x64/jre/lib/rt.jar]
+<writer thread='140215088727808'/>
+<destroy_vm stamp='1.554'/>
+<tty_done stamp='1.867'/>
+</tty>
+<compilation_log thread='140215081740032'>
+<start_compile_thread name='C2 CompilerThread1' thread='140215081740032' process='6408' stamp='0.068'/>
+<task compile_id='2' method='java/lang/String hashCode ()I' bytes='55' count='605' backedge_count='5000' iicount='605' stamp='0.095'>
+<phase name='parse' nodes='3' live='3' stamp='0.103'>
+<type id='634' name='int'/>
+<klass id='646' name='java/lang/String' flags='17'/>
+<method id='729' holder='646' name='hashCode' return='634' flags='1' bytes='55' iicount='608'/>
+<parse method='729' uses='608' stamp='0.104'>
+<bc code='154' bci='6'/>
+<branch target_bci='53' taken='130' not_taken='183' cnt='313' prob='0.415335'/>
+<bc code='190' bci='13'/>
+<uncommon_trap bci='13' reason='null_check' action='maybe_recompile'/>
+<bc code='158' bci='14'/>
+<branch target_bci='53' taken='2' not_taken='181' cnt='183' prob='0.010929'/>
+<bc code='162' bci='30'/>
+<branch target_bci='48' taken='182' not_taken='6793' cnt='6975' prob='0.0260932'/>
+<uncommon_trap bci='33' reason='predicate' action='maybe_recompile'/>
+<uncommon_trap bci='33' reason='loop_limit_check' action='maybe_recompile'/>
+<bc code='52' bci='39'/>
+<uncommon_trap bci='39' reason='range_check' action='make_not_entrant' comment='range_check'/>
+<bc code='190' bci='29'/>
+<uncommon_trap bci='29' reason='null_check' action='maybe_recompile'/>
+<bc code='162' bci='30'/>
+<branch target_bci='48' taken='182' not_taken='6793' cnt='6793' prob='0.0260932'/>
+<parse_done nodes='189' live='183' memory='49600' stamp='0.105'/>
+</parse>
+<phase_done name='parse' nodes='190' live='123' stamp='0.105'/>
+</phase>
+<phase name='optimizer' nodes='190' live='123' stamp='0.105'>
+<phase name='idealLoop' nodes='191' live='103' stamp='0.105'>
+<loop_tree>
+<loop idx='191' inner_loop='1' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='195' live='95' stamp='0.106'/>
+</phase>
+<phase name='idealLoop' nodes='195' live='95' stamp='0.106'>
+<loop_tree>
+<loop idx='200' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='221' live='101' stamp='0.106'/>
+</phase>
+<phase name='idealLoop' nodes='221' live='101' stamp='0.106'>
+<loop_tree>
+<loop idx='293' inner_loop='1' main_loop='293' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='315' live='168' stamp='0.107'/>
+</phase>
+<phase name='ccp' nodes='315' live='168' stamp='0.107'>
+<phase_done name='ccp' nodes='315' live='168' stamp='0.107'/>
+</phase>
+<phase name='idealLoop' nodes='315' live='168' stamp='0.107'>
+<loop_tree>
+<loop idx='259' inner_loop='1' pre_loop='200' >
+</loop>
+<loop idx='348' inner_loop='1' main_loop='348' >
+</loop>
+<loop idx='232' inner_loop='1' post_loop='200' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='378' live='192' stamp='0.107'/>
+</phase>
+<phase name='idealLoop' nodes='378' live='192' stamp='0.107'>
+<loop_tree>
+<loop idx='259' inner_loop='1' pre_loop='200' >
+</loop>
+<loop idx='348' inner_loop='1' main_loop='348' >
+</loop>
+<loop idx='232' inner_loop='1' post_loop='200' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='384' live='178' stamp='0.107'/>
+</phase>
+<phase name='idealLoop' nodes='384' live='178' stamp='0.107'>
+<loop_tree>
+<loop idx='259' inner_loop='1' pre_loop='200' >
+</loop>
+<loop idx='348' inner_loop='1' main_loop='348' >
+</loop>
+<loop idx='232' inner_loop='1' post_loop='200' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='387' live='169' stamp='0.108'/>
+</phase>
+<phase_done name='optimizer' nodes='390' live='169' stamp='0.108'/>
+</phase>
+<phase name='matcher' nodes='390' live='169' stamp='0.108'>
+<phase_done name='matcher' nodes='150' live='150' stamp='0.108'/>
+</phase>
+<phase name='regalloc' nodes='190' live='190' stamp='0.108'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='216' live='210' stamp='0.109'/>
+</phase>
+<phase name='output' nodes='218' live='212' stamp='0.109'>
+<phase_done name='output' nodes='237' live='222' stamp='0.109'/>
+</phase>
+<code_cache total_blobs='189' nmethods='1' adapters='142' free_code_cache='49931072' largest_free_block='49917760'/>
+<task_done success='1' nmsize='376' count='631' backedge_count='5513' stamp='0.109'/>
+</task>
+<task compile_id='3' method='cz/rank/ubench/osr/SynchronizationTest3 testX ()V' bytes='11' count='6370' backedge_count='1' iicount='86362' stamp='0.109'>
+<phase name='parse' nodes='3' live='3' stamp='0.109'>
+<type id='636' name='void'/>
+<klass id='729' name='cz/rank/ubench/osr/SynchronizationTest3' flags='1'/>
+<method id='730' holder='729' name='testX' return='636' flags='2' bytes='11' iicount='86469'/>
+<parse method='730' uses='86469' stamp='0.109'>
+<parse_done nodes='30' live='29' memory='23472' stamp='0.110'/>
+</parse>
+<phase_done name='parse' nodes='31' live='17' stamp='0.110'/>
+</phase>
+<phase name='optimizer' nodes='31' live='17' stamp='0.110'>
+<phase name='ccp' nodes='31' live='17' stamp='0.110'>
+<phase_done name='ccp' nodes='31' live='17' stamp='0.110'/>
+</phase>
+<phase name='idealLoop' nodes='31' live='17' stamp='0.110'>
+<phase_done name='idealLoop' nodes='31' live='17' stamp='0.110'/>
+</phase>
+<phase_done name='optimizer' nodes='31' live='17' stamp='0.110'/>
+</phase>
+<phase name='matcher' nodes='31' live='17' stamp='0.110'>
+<phase_done name='matcher' nodes='15' live='15' stamp='0.110'/>
+</phase>
+<phase name='regalloc' nodes='17' live='17' stamp='0.110'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='17' live='17' stamp='0.110'/>
+</phase>
+<phase name='output' nodes='17' live='17' stamp='0.110'>
+<phase_done name='output' nodes='24' live='24' stamp='0.110'/>
+</phase>
+<code_cache total_blobs='190' nmethods='2' adapters='142' free_code_cache='49930560' largest_free_block='49917760'/>
+<task_done success='1' nmsize='88' count='8922' backedge_count='1' stamp='0.110'/>
+</task>
+<task compile_id='4' compile_kind='osr' method='cz/rank/ubench/osr/SynchronizationTest3 doTestX (I)V' bytes='80' count='10000' backedge_count='5054' iicount='1' osr_bci='7' stamp='0.110'>
+<phase name='parse' nodes='3' live='3' stamp='0.110'>
+<type id='636' name='void'/>
+<type id='634' name='int'/>
+<klass id='729' name='cz/rank/ubench/osr/SynchronizationTest3' flags='1'/>
+<method id='730' holder='729' name='doTestX' return='636' arguments='634' flags='2' bytes='80' iicount='1'/>
+<klass id='715' name='java/lang/Integer' flags='17'/>
+<uncommon_trap method='730' bci='63' reason='unloaded' action='reinterpret' index='115' klass='715'/>
+<parse method='730' uses='1' osr_bci='7' stamp='0.110'>
+<uncommon_trap method='730' bci='63' reason='unloaded' action='reinterpret' index='115' klass='715'/>
+<dependency type='leaf_type' ctxk='729'/>
+<dependency type='leaf_type' ctxk='729'/>
+<uncommon_trap bci='7' reason='constraint' action='reinterpret'/>
+<uncommon_trap bci='7' reason='predicate' action='maybe_recompile'/>
+<uncommon_trap bci='7' reason='loop_limit_check' action='maybe_recompile'/>
+<bc code='162' bci='11'/>
+<branch target_bci='24' taken='0' not_taken='86849' cnt='86849' prob='never'/>
+<bc code='183' bci='15'/>
+<method id='737' holder='729' name='testX' return='636' flags='2' bytes='11' compile_id='3' compiler='C2' iicount='88907'/>
+<call method='737' count='86848' prof_factor='1' inline='1'/>
+<inline_success reason='inline (hot)'/>
+<parse method='737' uses='86848' stamp='0.110'>
+<uncommon_trap bci='15' reason='null_check' action='maybe_recompile'/>
+<parse_done nodes='153' live='148' memory='46272' stamp='0.110'/>
+</parse>
+<bc code='184' bci='24'/>
+<type id='635' name='long'/>
+<klass id='651' name='java/lang/System' flags='17'/>
+<method id='732' holder='651' name='nanoTime' return='635' flags='265' bytes='0' iicount='95'/>
+<call method='732' count='0' prof_factor='1' inline='1'/>
+<intrinsic id='_nanoTime' nodes='4'/>
+<bc code='164' bci='37'/>
+<branch target_bci='51' taken='0' not_taken='0'/>
+<bc code='180' bci='42'/>
+<uncommon_trap bci='42' reason='null_check' action='maybe_recompile'/>
+<bc code='178' bci='51'/>
+<klass id='733' name='java/io/PrintStream' unloaded='1'/>
+<assert_null reason='field' klass='733'/>
+<uncommon_trap bci='54' reason='null_assert' action='make_not_entrant' comment='assert_null'/>
+<bc code='184' bci='63'/>
+<uncommon_trap bci='63' reason='unloaded' action='reinterpret' index='115'/>
+<parse_done nodes='251' live='243' memory='61672' stamp='0.110'/>
+</parse>
+<phase_done name='parse' nodes='252' live='174' stamp='0.110'/>
+</phase>
+<phase name='optimizer' nodes='252' live='174' stamp='0.110'>
+<phase name='idealLoop' nodes='266' live='166' stamp='0.111'>
+<loop_tree>
+<loop idx='266' inner_loop='1' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='267' live='166' stamp='0.111'/>
+</phase>
+<phase name='escapeAnalysis' nodes='267' live='166' stamp='0.111'>
+<phase name='connectionGraph' nodes='268' live='167' stamp='0.111'>
+<phase_done name='connectionGraph' nodes='268' live='167' stamp='0.111'/>
+</phase>
+<phase_done name='escapeAnalysis' nodes='268' live='167' stamp='0.111'/>
+</phase>
+<klass id='735' name='[Ljava/lang/Object;' flags='1041'/>
+<eliminate_allocation type='735'>
+<jvms bci='57' method='730'/>
+</eliminate_allocation>
+<phase name='idealLoop' nodes='271' live='149' stamp='0.111'>
+<loop_tree>
+<loop idx='266' inner_loop='1' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='305' live='156' stamp='0.111'/>
+</phase>
+<phase name='idealLoop' nodes='305' live='156' stamp='0.111'>
+<loop_tree>
+<loop idx='310' main_loop='310' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='372' live='186' stamp='0.111'/>
+</phase>
+<phase name='idealLoop' nodes='372' live='186' stamp='0.111'>
+<loop_tree>
+<loop idx='345' inner_loop='1' pre_loop='310' >
+</loop>
+<loop idx='379' inner_loop='1' main_loop='379' >
+</loop>
+<loop idx='318' inner_loop='1' post_loop='310' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='388' live='187' stamp='0.111'/>
+</phase>
+<phase name='ccp' nodes='388' live='187' stamp='0.111'>
+<phase_done name='ccp' nodes='388' live='187' stamp='0.111'/>
+</phase>
+<phase name='idealLoop' nodes='391' live='182' stamp='0.111'>
+<loop_tree>
+<loop idx='345' inner_loop='1' pre_loop='310' >
+</loop>
+<loop idx='379' inner_loop='1' main_loop='379' >
+</loop>
+<loop idx='318' inner_loop='1' post_loop='310' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='398' live='179' stamp='0.112'/>
+</phase>
+<phase name='idealLoop' nodes='398' live='179' stamp='0.112'>
+<loop_tree>
+<loop idx='345' inner_loop='1' pre_loop='310' >
+</loop>
+<loop idx='379' inner_loop='1' main_loop='379' >
+</loop>
+<loop idx='318' inner_loop='1' post_loop='310' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='411' live='181' stamp='0.112'/>
+</phase>
+<phase name='idealLoop' nodes='411' live='181' stamp='0.112'>
+<loop_tree>
+<loop idx='345' inner_loop='1' pre_loop='310' >
+</loop>
+<loop idx='431' inner_loop='1' main_loop='431' >
+</loop>
+<loop idx='318' inner_loop='1' post_loop='310' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='445' live='185' stamp='0.112'/>
+</phase>
+<phase name='idealLoop' nodes='445' live='185' stamp='0.112'>
+<loop_tree>
+<loop idx='345' inner_loop='1' pre_loop='310' >
+</loop>
+<loop idx='458' inner_loop='1' main_loop='458' >
+</loop>
+<loop idx='318' inner_loop='1' post_loop='310' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='466' live='188' stamp='0.112'/>
+</phase>
+<phase name='idealLoop' nodes='466' live='188' stamp='0.112'>
+<loop_tree>
+<loop idx='345' inner_loop='1' pre_loop='310' >
+</loop>
+<loop idx='482' inner_loop='1' main_loop='482' >
+</loop>
+<loop idx='318' inner_loop='1' post_loop='310' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='494' live='192' stamp='0.112'/>
+</phase>
+<phase name='idealLoop' nodes='494' live='192' stamp='0.112'>
+<loop_tree>
+<loop idx='345' inner_loop='1' pre_loop='310' >
+</loop>
+<loop idx='482' inner_loop='1' main_loop='482' >
+</loop>
+<loop idx='318' inner_loop='1' post_loop='310' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='497' live='188' stamp='0.112'/>
+</phase>
+<phase_done name='optimizer' nodes='502' live='188' stamp='0.112'/>
+</phase>
+<phase name='matcher' nodes='502' live='188' stamp='0.112'>
+<phase_done name='matcher' nodes='172' live='172' stamp='0.113'/>
+</phase>
+<phase name='regalloc' nodes='222' live='222' stamp='0.113'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='253' live='237' stamp='0.114'/>
+</phase>
+<phase name='output' nodes='253' live='237' stamp='0.114'>
+<phase_done name='output' nodes='270' live='246' stamp='0.114'/>
+</phase>
+<dependency type='leaf_type' ctxk='729'/>
+<code_cache total_blobs='191' nmethods='3' adapters='142' free_code_cache='49928960' largest_free_block='49917760'/>
+<task_done success='1' nmsize='408' count='10000' backedge_count='5425' inlined_bytes='11' stamp='0.114'/>
+</task>
+<task compile_id='5' method='cz/rank/ubench/osr/SynchronizationTest3 testY ()V' bytes='11' count='5169' backedge_count='1' iicount='10175' stamp='0.121'>
+<phase name='parse' nodes='3' live='3' stamp='0.121'>
+<type id='636' name='void'/>
+<klass id='729' name='cz/rank/ubench/osr/SynchronizationTest3' flags='1'/>
+<method id='730' holder='729' name='testY' return='636' flags='34' bytes='11' iicount='10374'/>
+<parse method='730' uses='10374' stamp='0.121'>
+<parse_done nodes='48' live='47' memory='26704' stamp='0.121'/>
+</parse>
+<phase_done name='parse' nodes='49' live='33' stamp='0.121'/>
+</phase>
+<phase name='optimizer' nodes='49' live='33' stamp='0.121'>
+<phase name='ccp' nodes='49' live='33' stamp='0.121'>
+<phase_done name='ccp' nodes='49' live='33' stamp='0.121'/>
+</phase>
+<phase name='idealLoop' nodes='49' live='33' stamp='0.121'>
+<phase_done name='idealLoop' nodes='49' live='33' stamp='0.121'/>
+</phase>
+<dependency type='leaf_type' ctxk='729'/>
+<phase_done name='optimizer' nodes='138' live='112' stamp='0.122'/>
+</phase>
+<phase name='matcher' nodes='138' live='112' stamp='0.122'>
+<phase_done name='matcher' nodes='102' live='102' stamp='0.122'/>
+</phase>
+<phase name='regalloc' nodes='135' live='135' stamp='0.122'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='150' live='146' stamp='0.123'/>
+</phase>
+<phase name='output' nodes='152' live='148' stamp='0.123'>
+<phase_done name='output' nodes='164' live='156' stamp='0.124'/>
+</phase>
+<dependency type='leaf_type' ctxk='729'/>
+<code_cache total_blobs='200' nmethods='5' adapters='149' free_code_cache='49922560' largest_free_block='49911360'/>
+<task_done success='1' nmsize='536' count='5065' backedge_count='1' stamp='0.124'/>
+</task>
+<task compile_id='7' method='cz/rank/ubench/osr/SynchronizationTest3 testZ ()V' bytes='25' count='5352' backedge_count='1' iicount='10367' stamp='0.246'>
+<phase name='parse' nodes='3' live='3' stamp='0.247'>
+<type id='636' name='void'/>
+<klass id='729' name='cz/rank/ubench/osr/SynchronizationTest3' flags='1'/>
+<method id='730' holder='729' name='testZ' return='636' flags='2' bytes='25' iicount='10692'/>
+<parse method='730' uses='10692' stamp='0.247'>
+<observe that='has_exception_handlers'/>
+<parse_done nodes='48' live='47' memory='26680' stamp='0.247'/>
+</parse>
+<phase_done name='parse' nodes='49' live='33' stamp='0.247'/>
+</phase>
+<phase name='optimizer' nodes='49' live='33' stamp='0.247'>
+<phase name='ccp' nodes='49' live='33' stamp='0.247'>
+<phase_done name='ccp' nodes='49' live='33' stamp='0.247'/>
+</phase>
+<phase name='idealLoop' nodes='49' live='33' stamp='0.247'>
+<phase_done name='idealLoop' nodes='49' live='33' stamp='0.247'/>
+</phase>
+<dependency type='leaf_type' ctxk='729'/>
+<phase_done name='optimizer' nodes='138' live='112' stamp='0.248'/>
+</phase>
+<phase name='matcher' nodes='138' live='112' stamp='0.248'>
+<phase_done name='matcher' nodes='102' live='102' stamp='0.248'/>
+</phase>
+<phase name='regalloc' nodes='135' live='135' stamp='0.248'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='151' live='146' stamp='0.250'/>
+</phase>
+<phase name='output' nodes='153' live='148' stamp='0.250'>
+<phase_done name='output' nodes='165' live='156' stamp='0.250'/>
+</phase>
+<dependency type='leaf_type' ctxk='729'/>
+<code_cache total_blobs='202' nmethods='7' adapters='149' free_code_cache='49918080' largest_free_block='49903808'/>
+<task_done success='1' nmsize='536' count='6745' backedge_count='1' stamp='0.250'/>
+</task>
+<task compile_id='9' method='cz/rank/ubench/osr/SynchronizationTest3 testV ()V' bytes='11' count='5328' backedge_count='1' iicount='10340' stamp='0.378'>
+<phase name='parse' nodes='3' live='3' stamp='0.378'>
+<type id='636' name='void'/>
+<klass id='729' name='cz/rank/ubench/osr/SynchronizationTest3' flags='1'/>
+<method id='730' holder='729' name='testV' return='636' flags='2' bytes='11' iicount='10661'/>
+<parse method='730' uses='10661' stamp='0.378'>
+<parse_done nodes='41' live='40' memory='24952' stamp='0.378'/>
+</parse>
+<phase_done name='parse' nodes='42' live='26' stamp='0.378'/>
+</phase>
+<phase name='optimizer' nodes='42' live='26' stamp='0.378'>
+<phase name='ccp' nodes='42' live='26' stamp='0.378'>
+<phase_done name='ccp' nodes='42' live='26' stamp='0.378'/>
+</phase>
+<phase name='idealLoop' nodes='42' live='26' stamp='0.378'>
+<phase_done name='idealLoop' nodes='42' live='26' stamp='0.378'/>
+</phase>
+<phase_done name='optimizer' nodes='42' live='26' stamp='0.378'/>
+</phase>
+<phase name='matcher' nodes='42' live='26' stamp='0.378'>
+<phase_done name='matcher' nodes='27' live='27' stamp='0.378'/>
+</phase>
+<phase name='regalloc' nodes='29' live='29' stamp='0.378'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='29' live='29' stamp='0.378'/>
+</phase>
+<phase name='output' nodes='29' live='29' stamp='0.378'>
+<phase_done name='output' nodes='36' live='36' stamp='0.378'/>
+</phase>
+<code_cache total_blobs='204' nmethods='9' adapters='149' free_code_cache='49913856' largest_free_block='49903808'/>
+<task_done success='1' nmsize='120' count='5417' backedge_count='1' stamp='0.379'/>
+</task>
+<task compile_id='11' method='cz/rank/ubench/osr/SynchronizationTest3 doTestX (I)V' bytes='80' count='10000' backedge_count='5074' iicount='2' decompiles='1' null_assert_traps='1' stamp='0.433'>
+<phase name='parse' nodes='3' live='3' stamp='0.434'>
+<type id='636' name='void'/>
+<type id='634' name='int'/>
+<klass id='729' name='cz/rank/ubench/osr/SynchronizationTest3' flags='1'/>
+<method id='730' holder='729' name='doTestX' return='636' arguments='634' flags='2' bytes='80' iicount='2'/>
+<parse method='730' uses='2' stamp='0.434'>
+<observe trap='null_assert' count='1' total='1'/>
+<bc code='184' bci='0'/>
+<type id='635' name='long'/>
+<klass id='651' name='java/lang/System' flags='17'/>
+<method id='733' holder='651' name='nanoTime' return='635' flags='265' bytes='0' iicount='103'/>
+<call method='733' count='1' prof_factor='1' inline='1'/>
+<intrinsic id='_nanoTime' nodes='4'/>
+<bc code='162' bci='11'/>
+<branch target_bci='24' taken='0' not_taken='172775' cnt='172775' prob='never'/>
+<uncommon_trap bci='14' reason='predicate' action='maybe_recompile'/>
+<uncommon_trap bci='14' reason='loop_limit_check' action='maybe_recompile'/>
+<bc code='183' bci='15'/>
+<method id='739' holder='729' name='testX' return='636' flags='2' bytes='11' compile_id='3' compiler='C2' iicount='88907'/>
+<call method='739' count='172775' prof_factor='1' inline='1'/>
+<inline_success reason='inline (hot)'/>
+<parse method='739' uses='172775' stamp='0.434'>
+<parse_done nodes='90' live='87' memory='34432' stamp='0.434'/>
+</parse>
+<bc code='162' bci='11'/>
+<branch target_bci='24' taken='0' not_taken='172775' cnt='172775' prob='never'/>
+<bc code='184' bci='24'/>
+<call method='733' count='0' prof_factor='1' inline='1'/>
+<intrinsic id='_nanoTime' nodes='4'/>
+<bc code='164' bci='37'/>
+<branch target_bci='51' taken='0' not_taken='0'/>
+<bc code='184' bci='63'/>
+<klass id='715' name='java/lang/Integer' flags='17'/>
+<method id='736' holder='715' name='valueOf' return='715' arguments='634' flags='9' bytes='54' iicount='5'/>
+<call method='736' count='1' prof_factor='1' inline='1'/>
+<klass id='746' name='java/lang/AssertionError' unloaded='1'/>
+<uncommon_trap method='736' bci='14' reason='unloaded' action='reinterpret' index='156' klass='746'/>
+<inline_fail reason='too big'/>
+<direct_call bci='63'/>
+<bc code='83' bci='66'/>
+<observe that='!need_range_check'/>
+<bc code='184' bci='71'/>
+<klass id='716' name='java/lang/Long' flags='17'/>
+<method id='737' holder='716' name='valueOf' return='716' arguments='635' flags='9' bytes='36' iicount='4'/>
+<call method='737' count='1' prof_factor='1' inline='1'/>
+<klass id='749' name='java/lang/Long$LongCache' unloaded='1'/>
+<uncommon_trap method='737' bci='16' reason='unloaded' action='reinterpret' index='167' klass='749'/>
+<inline_fail reason='too big'/>
+<direct_call bci='71'/>
+<bc code='83' bci='74'/>
+<observe that='!need_range_check'/>
+<bc code='182' bci='75'/>
+<klass id='732' name='java/io/PrintStream' flags='1'/>
+<klass id='646' name='java/lang/String' flags='17'/>
+<klass id='735' name='[Ljava/lang/Object;' flags='1041'/>
+<method id='738' holder='732' name='format' return='732' arguments='646 735' flags='129' bytes='86' iicount='4'/>
+<dependency type='unique_concrete_method' ctxk='732' x='738'/>
+<call method='738' count='1' prof_factor='1' inline='1'/>
+<inline_fail reason='too big'/>
+<direct_call bci='75'/>
+<uncommon_trap bci='75' reason='null_check' action='maybe_recompile'/>
+<parse_done nodes='266' live='261' memory='74704' stamp='0.436'/>
+</parse>
+<phase_done name='parse' nodes='268' live='168' stamp='0.436'/>
+</phase>
+<phase name='optimizer' nodes='268' live='168' stamp='0.436'>
+<phase name='idealLoop' nodes='272' live='163' stamp='0.436'>
+<loop_tree>
+<loop idx='278' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='279' live='161' stamp='0.437'/>
+</phase>
+<phase name='escapeAnalysis' nodes='279' live='161' stamp='0.437'>
+<phase name='connectionGraph' nodes='280' live='162' stamp='0.437'>
+<phase_done name='connectionGraph' nodes='280' live='162' stamp='0.437'/>
+</phase>
+<phase_done name='escapeAnalysis' nodes='280' live='162' stamp='0.437'/>
+</phase>
+<phase name='idealLoop' nodes='280' live='162' stamp='0.437'>
+<loop_tree>
+<loop idx='278' inner_loop='1' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='283' live='163' stamp='0.437'/>
+</phase>
+<phase name='idealLoop' nodes='283' live='163' stamp='0.437'>
+<loop_tree>
+<loop idx='348' inner_loop='1' main_loop='348' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='358' live='212' stamp='0.438'/>
+</phase>
+<phase name='idealLoop' nodes='358' live='212' stamp='0.438'>
+<loop_tree>
+<loop idx='320' inner_loop='1' pre_loop='278' >
+</loop>
+<loop idx='373' inner_loop='1' main_loop='373' >
+</loop>
+<loop idx='295' inner_loop='1' post_loop='278' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='383' live='214' stamp='0.439'/>
+</phase>
+<phase name='ccp' nodes='383' live='214' stamp='0.439'>
+<phase_done name='ccp' nodes='383' live='214' stamp='0.439'/>
+</phase>
+<phase name='idealLoop' nodes='383' live='214' stamp='0.439'>
+<loop_tree>
+<loop idx='320' inner_loop='1' pre_loop='278' >
+</loop>
+<loop idx='398' inner_loop='1' main_loop='398' >
+</loop>
+<loop idx='295' inner_loop='1' post_loop='278' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='409' live='216' stamp='0.440'/>
+</phase>
+<phase name='idealLoop' nodes='409' live='216' stamp='0.440'>
+<loop_tree>
+<loop idx='320' inner_loop='1' pre_loop='278' >
+</loop>
+<loop idx='421' inner_loop='1' main_loop='421' >
+</loop>
+<loop idx='295' inner_loop='1' post_loop='278' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='429' live='218' stamp='0.440'/>
+</phase>
+<phase name='idealLoop' nodes='429' live='218' stamp='0.440'>
+<loop_tree>
+<loop idx='320' inner_loop='1' pre_loop='278' >
+</loop>
+<loop idx='421' inner_loop='1' main_loop='421' >
+</loop>
+<loop idx='295' inner_loop='1' post_loop='278' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='433' live='202' stamp='0.441'/>
+</phase>
+<phase name='idealLoop' nodes='433' live='202' stamp='0.441'>
+<loop_tree>
+<loop idx='320' inner_loop='1' pre_loop='278' >
+</loop>
+<loop idx='421' inner_loop='1' main_loop='421' >
+</loop>
+<loop idx='295' inner_loop='1' post_loop='278' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='434' live='181' stamp='0.441'/>
+</phase>
+<phase_done name='optimizer' nodes='497' live='224' stamp='0.442'/>
+</phase>
+<phase name='matcher' nodes='497' live='224' stamp='0.442'>
+<phase_done name='matcher' nodes='199' live='199' stamp='0.442'/>
+</phase>
+<phase name='regalloc' nodes='242' live='242' stamp='0.443'>
+<regalloc attempts='1' success='1'/>
+<phase_done name='regalloc' nodes='289' live='274' stamp='0.446'/>
+</phase>
+<phase name='output' nodes='291' live='276' stamp='0.446'>
+<phase_done name='output' nodes='311' live='288' stamp='0.446'/>
+</phase>
+<dependency type='unique_concrete_method' ctxk='732' x='738'/>
+<code_cache total_blobs='206' nmethods='11' adapters='149' free_code_cache='49909440' largest_free_block='49901440'/>
+<task_done success='1' nmsize='584' count='10000' backedge_count='6019' inlined_bytes='11' stamp='0.447'/>
+</task>
+<task compile_id='13' method='cz/rank/ubench/osr/SynchronizationTest3 doTextY (I)V' bytes='80' count='5000' backedge_count='5456' iicount='2' stamp='0.459'>
+<phase name='parse' nodes='3' live='3' stamp='0.459'>
+<type id='636' name='void'/>
+<type id='634' name='int'/>
+<klass id='729' name='cz/rank/ubench/osr/SynchronizationTest3' flags='1'/>
+<method id='730' holder='729' name='doTextY' return='636' arguments='634' flags='2' bytes='80' iicount='2'/>
+<parse method='730' uses='2' stamp='0.459'>
+<bc code='184' bci='0'/>
+<type id='635' name='long'/>
+<klass id='651' name='java/lang/System' flags='17'/>
+<method id='732' holder='651' name='nanoTime' return='635' flags='265' bytes='0' iicount='104'/>
+<call method='732' count='1' prof_factor='1' inline='1'/>
+<intrinsic id='_nanoTime' nodes='4'/>
+<bc code='162' bci='11'/>
+<branch target_bci='24' taken='0' not_taken='140288' cnt='140288' prob='never'/>
+<uncommon_trap bci='14' reason='predicate' action='maybe_recompile'/>
+<uncommon_trap bci='14' reason='loop_limit_check' action='maybe_recompile'/>
+<bc code='183' bci='15'/>
+<method id='739' holder='729' name='testY' return='636' flags='34' bytes='11' compile_id='5' compiler='C2' iicount='25062'/>
+<call method='739' count='140288' prof_factor='1' inline='1'/>
+<inline_success reason='inline (hot)'/>
+<parse method='739' uses='140288' stamp='0.459'>
+<parse_done nodes='107' live='104' memory='37336' stamp='0.459'/>
+</parse>
+<bc code='162' bci='11'/>
+<branch target_bci='24' taken='0' not_taken='140288' cnt='140288' prob='never'/>
+<bc code='184' bci='24'/>
+<call method='732' count='0' prof_factor='1' inline='1'/>
+<intrinsic id='_nanoTime' nodes='4'/>
+<bc code='164' bci='37'/>
+<branch target_bci='51' taken='0' not_taken='0'/>
+<bc code='184' bci='63'/>
+<klass id='715' name='java/lang/Integer' flags='17'/>
+<method id='736' holder='715' name='valueOf' return='715' arguments='634' flags='9' bytes='54' iicount='6'/>
+<call method='736' count='0' prof_factor='1' inline='1'/>
+<klass id='746' name='java/lang/AssertionError' unloaded='1'/>
+<uncommon_trap method='736' bci='14' reason='unloaded' action='reinterpret' index='156' klass='746'/>
+<inline_fail reason='too big'/>
+<direct_call bci='63'/>
+<bc code='83' bci='66'/>
+<observe that='!need_range_check'/>
+<bc code='184' bci='71'/>
+<klass id='716' name='java/lang/Long' flags='17'/>
+<method id='737' holder='716' name='valueOf' return='716' arguments='635' flags='9' bytes='36' iicount='5'/>
+<call method='737' count='0' prof_factor='1' inline='1'/>
+<klass id='749' name='java/lang/Long$LongCache' unloaded='1'/>
+<uncommon_trap method='737' bci='16' reason='unloaded' action='reinterpret' index='167' klass='749'/>
+<inline_fail reason='too big'/>
+<direct_call bci='71'/>
+<bc code='83' bci='74'/>
+<observe that='!need_range_check'/>
+<bc code='182' bci='75'/>
+<klass id='733' name='java/io/PrintStream' flags='1'/>
+<klass id='646' name='java/lang/String' flags='17'/>
+<klass id='735' name='[Ljava/lang/Object;' flags='1041'/>
+<method id='738' holder='733' name='format' return='733' arguments='646 735' flags='129' bytes='86' iicount='5'/>
+<dependency type='unique_concrete_method' ctxk='733' x='738'/>
+<call method='738' count='0' prof_factor='1' inline='1'/>
+<inline_fail reason='too big'/>
+<direct_call bci='75'/>
+<uncommon_trap bci='75' reason='null_check' action='maybe_recompile'/>
+<parse_done nodes='282' live='277' memory='75592' stamp='0.460'/>
+</parse>
+<phase_done name='parse' nodes='284' live='183' stamp='0.460'/>
+</phase>
+<phase name='optimizer' nodes='284' live='183' stamp='0.460'>
+<phase name='idealLoop' nodes='284' live='178' stamp='0.460'>
+<loop_tree>
+<loop idx='290' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='291' live='176' stamp='0.460'/>
+</phase>
+<phase name='escapeAnalysis' nodes='291' live='176' stamp='0.460'>
+<phase name='connectionGraph' nodes='292' live='177' stamp='0.460'>
+<phase_done name='connectionGraph' nodes='292' live='177' stamp='0.460'/>
+</phase>
+<phase_done name='escapeAnalysis' nodes='292' live='177' stamp='0.460'/>
+</phase>
+<phase name='idealLoop' nodes='292' live='177' stamp='0.460'>
+<loop_tree>
+<loop idx='409' inner_loop='1' main_loop='409' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='421' live='280' stamp='0.460'/>
+</phase>
+<phase name='idealLoop' nodes='421' live='280' stamp='0.460'>
+<loop_tree>
+<loop idx='363' inner_loop='1' pre_loop='290' >
+</loop>
+<loop idx='438' inner_loop='1' main_loop='438' >
+</loop>
+<loop idx='316' inner_loop='1' post_loop='290' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='478' live='320' stamp='0.461'/>
+</phase>
+<phase name='idealLoop' nodes='478' live='320' stamp='0.461'>
+<loop_tree>
+<loop idx='363' inner_loop='1' pre_loop='290' >
+</loop>
+<loop idx='438' inner_loop='1' main_loop='438' >
+</loop>
+<loop idx='316' inner_loop='1' post_loop='290' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='478' live='320' stamp='0.461'/>
+</phase>
+<phase name='ccp' nodes='478' live='320' stamp='0.461'>
+<phase_done name='ccp' nodes='478' live='320' stamp='0.461'/>
+</phase>
+<phase name='idealLoop' nodes='478' live='320' stamp='0.461'>
+<loop_tree>
+<loop idx='363' inner_loop='1' pre_loop='290' >
+</loop>
+<loop idx='438' inner_loop='1' main_loop='438' >
+</loop>
+<loop idx='316' inner_loop='1' post_loop='290' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='478' live='304' stamp='0.461'/>
+</phase>
+<phase name='idealLoop' nodes='478' live='304' stamp='0.461'>
+<loop_tree>
+<loop idx='363' inner_loop='1' pre_loop='290' >
+</loop>
+<loop idx='438' inner_loop='1' main_loop='438' >
+</loop>
+<loop idx='316' inner_loop='1' post_loop='290' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='479' live='279' stamp='0.461'/>
+</phase>
+<eliminate_lock lock='0'>
+</eliminate_lock>
+<eliminate_lock lock='1'>
+<jvms bci='-1' method='739'/>
+<jvms bci='15' method='730'/>
+</eliminate_lock>
+<eliminate_lock lock='0'>
+</eliminate_lock>
+<eliminate_lock lock='0'>
+</eliminate_lock>
+<eliminate_lock lock='1'>
+<jvms bci='-1' method='739'/>
+<jvms bci='15' method='730'/>
+</eliminate_lock>
+<eliminate_lock lock='1'>
+<jvms bci='-1' method='739'/>
+<jvms bci='15' method='730'/>
+</eliminate_lock>
+<dependency type='leaf_type' ctxk='729'/>
+<dependency type='leaf_type' ctxk='729'/>
+<dependency type='leaf_type' ctxk='729'/>
+<phase_done name='optimizer' nodes='786' live='477' stamp='0.462'/>
+</phase>
+<phase name='matcher' nodes='786' live='477' stamp='0.462'>
+<phase_done name='matcher' nodes='453' live='453' stamp='0.462'/>
+</phase>
+<phase name='regalloc' nodes='589' live='589' stamp='0.463'>
+<regalloc attempts='1' success='1'/>
+<phase_done name='regalloc' nodes='719' live='690' stamp='0.465'/>
+</phase>
+<phase name='output' nodes='725' live='696' stamp='0.465'>
+<phase_done name='output' nodes='751' live='712' stamp='0.466'/>
+</phase>
+<dependency type='leaf_type' ctxk='729'/>
+<dependency type='unique_concrete_method' ctxk='733' x='738'/>
+<code_cache total_blobs='208' nmethods='13' adapters='149' free_code_cache='49903424' largest_free_block='49891264'/>
+<task_done success='1' nmsize='2024' count='5000' backedge_count='6024' inlined_bytes='11' stamp='0.466'/>
+</task>
+<task compile_id='15' method='cz/rank/ubench/osr/SynchronizationTest3 doTestV (I)V' bytes='80' count='5000' backedge_count='5669' iicount='2' stamp='0.692'>
+<phase name='parse' nodes='3' live='3' stamp='0.693'>
+<type id='636' name='void'/>
+<type id='634' name='int'/>
+<klass id='729' name='cz/rank/ubench/osr/SynchronizationTest3' flags='1'/>
+<method id='730' holder='729' name='doTestV' return='636' arguments='634' flags='2' bytes='80' iicount='2'/>
+<parse method='730' uses='2' stamp='0.693'>
+<bc code='184' bci='0'/>
+<type id='635' name='long'/>
+<klass id='651' name='java/lang/System' flags='17'/>
+<method id='732' holder='651' name='nanoTime' return='635' flags='265' bytes='0' iicount='106'/>
+<call method='732' count='1' prof_factor='1' inline='1'/>
+<intrinsic id='_nanoTime' nodes='4'/>
+<bc code='162' bci='11'/>
+<branch target_bci='24' taken='0' not_taken='326656' cnt='326656' prob='never'/>
+<uncommon_trap bci='14' reason='predicate' action='maybe_recompile'/>
+<uncommon_trap bci='14' reason='loop_limit_check' action='maybe_recompile'/>
+<bc code='183' bci='15'/>
+<method id='739' holder='729' name='testV' return='636' flags='2' bytes='11' compile_id='9' compiler='C2' iicount='15416'/>
+<call method='739' count='326656' prof_factor='1' inline='1'/>
+<inline_success reason='inline (hot)'/>
+<parse method='739' uses='326656' stamp='0.693'>
+<parse_done nodes='101' live='98' memory='35440' stamp='0.693'/>
+</parse>
+<bc code='162' bci='11'/>
+<branch target_bci='24' taken='0' not_taken='326656' cnt='326656' prob='never'/>
+<bc code='184' bci='24'/>
+<call method='732' count='0' prof_factor='1' inline='1'/>
+<intrinsic id='_nanoTime' nodes='4'/>
+<bc code='164' bci='37'/>
+<branch target_bci='51' taken='0' not_taken='0'/>
+<bc code='184' bci='63'/>
+<klass id='715' name='java/lang/Integer' flags='17'/>
+<method id='736' holder='715' name='valueOf' return='715' arguments='634' flags='9' bytes='54' iicount='8'/>
+<call method='736' count='0' prof_factor='1' inline='1'/>
+<klass id='746' name='java/lang/AssertionError' unloaded='1'/>
+<uncommon_trap method='736' bci='14' reason='unloaded' action='reinterpret' index='156' klass='746'/>
+<inline_fail reason='too big'/>
+<direct_call bci='63'/>
+<bc code='83' bci='66'/>
+<observe that='!need_range_check'/>
+<bc code='184' bci='71'/>
+<klass id='716' name='java/lang/Long' flags='17'/>
+<method id='737' holder='716' name='valueOf' return='716' arguments='635' flags='9' bytes='36' iicount='7'/>
+<call method='737' count='0' prof_factor='1' inline='1'/>
+<klass id='749' name='java/lang/Long$LongCache' unloaded='1'/>
+<uncommon_trap method='737' bci='16' reason='unloaded' action='reinterpret' index='167' klass='749'/>
+<inline_fail reason='too big'/>
+<direct_call bci='71'/>
+<bc code='83' bci='74'/>
+<observe that='!need_range_check'/>
+<bc code='182' bci='75'/>
+<klass id='733' name='java/io/PrintStream' flags='1'/>
+<klass id='646' name='java/lang/String' flags='17'/>
+<klass id='735' name='[Ljava/lang/Object;' flags='1041'/>
+<method id='738' holder='733' name='format' return='733' arguments='646 735' flags='129' bytes='86' iicount='7'/>
+<dependency type='unique_concrete_method' ctxk='733' x='738'/>
+<call method='738' count='0' prof_factor='1' inline='1'/>
+<inline_fail reason='too big'/>
+<direct_call bci='75'/>
+<uncommon_trap bci='75' reason='null_check' action='maybe_recompile'/>
+<parse_done nodes='276' live='271' memory='73936' stamp='0.694'/>
+</parse>
+<phase_done name='parse' nodes='278' live='175' stamp='0.694'/>
+</phase>
+<phase name='optimizer' nodes='278' live='175' stamp='0.694'>
+<phase name='idealLoop' nodes='278' live='170' stamp='0.694'>
+<loop_tree>
+<loop idx='284' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='285' live='169' stamp='0.694'/>
+</phase>
+<phase name='escapeAnalysis' nodes='285' live='169' stamp='0.694'>
+<phase name='connectionGraph' nodes='286' live='170' stamp='0.694'>
+<phase_done name='connectionGraph' nodes='286' live='170' stamp='0.694'/>
+</phase>
+<phase_done name='escapeAnalysis' nodes='286' live='170' stamp='0.694'/>
+</phase>
+<phase name='idealLoop' nodes='286' live='170' stamp='0.694'>
+<loop_tree>
+<loop idx='381' inner_loop='1' main_loop='381' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='388' live='247' stamp='0.695'/>
+</phase>
+<phase name='idealLoop' nodes='388' live='247' stamp='0.695'>
+<loop_tree>
+<loop idx='345' inner_loop='1' pre_loop='284' >
+</loop>
+<loop idx='402' inner_loop='1' main_loop='402' >
+</loop>
+<loop idx='307' inner_loop='1' post_loop='284' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='428' live='274' stamp='0.695'/>
+</phase>
+<phase name='idealLoop' nodes='428' live='274' stamp='0.695'>
+<loop_tree>
+<loop idx='345' inner_loop='1' pre_loop='284' >
+</loop>
+<loop idx='451' inner_loop='1' main_loop='451' >
+</loop>
+<loop idx='307' inner_loop='1' post_loop='284' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='494' live='328' stamp='0.695'/>
+</phase>
+<phase name='ccp' nodes='494' live='328' stamp='0.695'>
+<phase_done name='ccp' nodes='494' live='328' stamp='0.695'/>
+</phase>
+<phase name='idealLoop' nodes='494' live='328' stamp='0.695'>
+<loop_tree>
+<loop idx='345' inner_loop='1' pre_loop='284' >
+</loop>
+<loop idx='451' inner_loop='1' main_loop='451' >
+</loop>
+<loop idx='307' inner_loop='1' post_loop='284' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='509' live='312' stamp='0.696'/>
+</phase>
+<phase name='idealLoop' nodes='509' live='312' stamp='0.696'>
+<loop_tree>
+<loop idx='345' inner_loop='1' pre_loop='284' >
+</loop>
+<loop idx='451' inner_loop='1' main_loop='451' >
+</loop>
+<loop idx='307' inner_loop='1' post_loop='284' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='525' live='293' stamp='0.696'/>
+</phase>
+<phase_done name='optimizer' nodes='589' live='337' stamp='0.696'/>
+</phase>
+<phase name='matcher' nodes='589' live='337' stamp='0.696'>
+<phase_done name='matcher' nodes='328' live='328' stamp='0.697'/>
+</phase>
+<phase name='regalloc' nodes='371' live='371' stamp='0.698'>
+<regalloc attempts='1' success='1'/>
+<phase_done name='regalloc' nodes='414' live='399' stamp='0.700'/>
+</phase>
+<phase name='output' nodes='416' live='401' stamp='0.700'>
+<phase_done name='output' nodes='436' live='414' stamp='0.700'/>
+</phase>
+<dependency type='unique_concrete_method' ctxk='733' x='738'/>
+<code_cache total_blobs='210' nmethods='15' adapters='149' free_code_cache='49897664' largest_free_block='49889280'/>
+<task_done success='1' nmsize='712' count='5000' backedge_count='6024' inlined_bytes='11' stamp='0.700'/>
+</task>
+</compilation_log>
+<compilation_log thread='140215082792704'>
+<start_compile_thread name='C2 CompilerThread0' thread='140215082792704' process='6408' stamp='0.067'/>
+<task compile_id='1' method='java/lang/String indexOf (II)I' bytes='70' count='306' backedge_count='5046' iicount='306' stamp='0.084'>
+<phase name='matcher' nodes='47' live='47' stamp='0.084'>
+<phase_done name='matcher' nodes='32' live='32' stamp='0.085'/>
+</phase>
+<phase name='regalloc' nodes='37' live='37' stamp='0.085'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='47' live='46' stamp='0.086'/>
+</phase>
+<phase name='output' nodes='47' live='46' stamp='0.086'>
+<phase_done name='output' nodes='54' live='52' stamp='0.086'/>
+</phase>
+<phase name='matcher' nodes='48' live='48' stamp='0.086'>
+<phase_done name='matcher' nodes='33' live='33' stamp='0.086'/>
+</phase>
+<phase name='regalloc' nodes='38' live='38' stamp='0.086'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='50' live='49' stamp='0.087'/>
+</phase>
+<phase name='output' nodes='50' live='49' stamp='0.087'>
+<phase_done name='output' nodes='57' live='55' stamp='0.087'/>
+</phase>
+<phase name='matcher' nodes='48' live='48' stamp='0.088'>
+<phase_done name='matcher' nodes='33' live='33' stamp='0.088'/>
+</phase>
+<phase name='regalloc' nodes='38' live='38' stamp='0.088'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='50' live='49' stamp='0.089'/>
+</phase>
+<phase name='output' nodes='50' live='49' stamp='0.089'>
+<phase_done name='output' nodes='57' live='55' stamp='0.089'/>
+</phase>
+<phase name='matcher' nodes='49' live='49' stamp='0.090'>
+<phase_done name='matcher' nodes='34' live='34' stamp='0.090'/>
+</phase>
+<phase name='regalloc' nodes='39' live='39' stamp='0.091'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='53' live='52' stamp='0.091'/>
+</phase>
+<phase name='output' nodes='53' live='52' stamp='0.091'>
+<phase_done name='output' nodes='60' live='58' stamp='0.091'/>
+</phase>
+<phase name='matcher' nodes='50' live='50' stamp='0.092'>
+<phase_done name='matcher' nodes='35' live='35' stamp='0.092'/>
+</phase>
+<phase name='regalloc' nodes='40' live='40' stamp='0.092'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='56' live='55' stamp='0.092'/>
+</phase>
+<phase name='output' nodes='56' live='55' stamp='0.092'>
+<phase_done name='output' nodes='63' live='61' stamp='0.092'/>
+</phase>
+<phase name='matcher' nodes='51' live='51' stamp='0.093'>
+<phase_done name='matcher' nodes='36' live='36' stamp='0.093'/>
+</phase>
+<phase name='regalloc' nodes='41' live='41' stamp='0.093'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='59' live='58' stamp='0.093'/>
+</phase>
+<phase name='output' nodes='59' live='58' stamp='0.093'>
+<phase_done name='output' nodes='66' live='64' stamp='0.094'/>
+</phase>
+<phase name='matcher' nodes='52' live='52' stamp='0.094'>
+<phase_done name='matcher' nodes='37' live='37' stamp='0.094'/>
+</phase>
+<phase name='regalloc' nodes='42' live='42' stamp='0.094'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='62' live='61' stamp='0.096'/>
+</phase>
+<phase name='output' nodes='62' live='61' stamp='0.096'>
+<phase_done name='output' nodes='69' live='67' stamp='0.096'/>
+</phase>
+<phase name='matcher' nodes='48' live='48' stamp='0.096'>
+<phase_done name='matcher' nodes='33' live='33' stamp='0.097'/>
+</phase>
+<phase name='regalloc' nodes='38' live='38' stamp='0.097'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='50' live='49' stamp='0.097'/>
+</phase>
+<phase name='output' nodes='50' live='49' stamp='0.097'>
+<phase_done name='output' nodes='57' live='55' stamp='0.098'/>
+</phase>
+<phase name='matcher' nodes='43' live='43' stamp='0.098'>
+<phase_done name='matcher' nodes='31' live='31' stamp='0.098'/>
+</phase>
+<phase name='regalloc' nodes='36' live='36' stamp='0.098'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='46' live='45' stamp='0.099'/>
+</phase>
+<phase name='output' nodes='46' live='45' stamp='0.099'>
+<phase_done name='output' nodes='53' live='51' stamp='0.099'/>
+</phase>
+<phase name='matcher' nodes='43' live='43' stamp='0.099'>
+<phase_done name='matcher' nodes='31' live='31' stamp='0.099'/>
+</phase>
+<phase name='regalloc' nodes='36' live='36' stamp='0.099'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='46' live='45' stamp='0.100'/>
+</phase>
+<phase name='output' nodes='46' live='45' stamp='0.100'>
+<phase_done name='output' nodes='53' live='51' stamp='0.100'/>
+</phase>
+<phase name='matcher' nodes='43' live='43' stamp='0.100'>
+<phase_done name='matcher' nodes='31' live='31' stamp='0.100'/>
+</phase>
+<phase name='regalloc' nodes='36' live='36' stamp='0.100'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='46' live='45' stamp='0.101'/>
+</phase>
+<phase name='output' nodes='46' live='45' stamp='0.101'>
+<phase_done name='output' nodes='53' live='51' stamp='0.101'/>
+</phase>
+<phase name='matcher' nodes='47' live='47' stamp='0.101'>
+<phase_done name='matcher' nodes='33' live='33' stamp='0.101'/>
+</phase>
+<phase name='regalloc' nodes='38' live='38' stamp='0.101'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='53' live='51' stamp='0.102'/>
+</phase>
+<phase name='output' nodes='53' live='51' stamp='0.102'>
+<phase_done name='output' nodes='60' live='57' stamp='0.102'/>
+</phase>
+<phase name='matcher' nodes='46' live='46' stamp='0.102'>
+<phase_done name='matcher' nodes='34' live='34' stamp='0.102'/>
+</phase>
+<phase name='regalloc' nodes='39' live='39' stamp='0.102'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='55' live='54' stamp='0.102'/>
+</phase>
+<phase name='output' nodes='55' live='54' stamp='0.102'>
+<phase_done name='output' nodes='62' live='60' stamp='0.103'/>
+</phase>
+<phase name='matcher' nodes='42' live='42' stamp='0.103'>
+<phase_done name='matcher' nodes='30' live='30' stamp='0.103'/>
+</phase>
+<phase name='regalloc' nodes='35' live='35' stamp='0.103'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='43' live='42' stamp='0.103'/>
+</phase>
+<phase name='output' nodes='43' live='42' stamp='0.103'>
+<phase_done name='output' nodes='50' live='48' stamp='0.103'/>
+</phase>
+<phase name='parse' nodes='3' live='3' stamp='0.114'>
+<type id='634' name='int'/>
+<klass id='646' name='java/lang/String' flags='17'/>
+<method id='729' holder='646' name='indexOf' return='634' arguments='634 634' flags='1' bytes='70' iicount='306'/>
+<parse method='729' uses='306' stamp='0.114'>
+<bc code='190' bci='4'/>
+<uncommon_trap bci='4' reason='null_check' action='maybe_recompile'/>
+<bc code='156' bci='7'/>
+<branch target_bci='15' taken='260' not_taken='0' cnt='260' prob='always'/>
+<bc code='161' bci='17'/>
+<branch target_bci='22' taken='227' not_taken='33' cnt='260' prob='0.873077'/>
+<bc code='162' bci='25'/>
+<branch target_bci='63' taken='0' not_taken='227' cnt='227' prob='never'/>
+<bc code='162' bci='40'/>
+<branch target_bci='61' taken='228' not_taken='9376' cnt='9604' prob='0.0237401'/>
+<uncommon_trap bci='43' reason='predicate' action='maybe_recompile'/>
+<uncommon_trap bci='43' reason='loop_limit_check' action='maybe_recompile'/>
+<bc code='52' bci='47'/>
+<uncommon_trap bci='47' reason='null_check' action='maybe_recompile'/>
+<uncommon_trap bci='47' reason='range_check' action='make_not_entrant' comment='range_check'/>
+<bc code='160' bci='49'/>
+<branch target_bci='55' taken='9376' not_taken='0' cnt='9376' prob='always'/>
+<bc code='162' bci='40'/>
+<branch target_bci='61' taken='228' not_taken='9376' cnt='9376' prob='0.0237401'/>
+<bc code='183' bci='66'/>
+<method id='731' holder='646' name='indexOfSupplementary' return='634' arguments='634 634' flags='2' bytes='71' iicount='1'/>
+<call method='731' count='0' prof_factor='1' inline='1'/>
+<inline_fail reason='too big'/>
+<direct_call bci='66'/>
+<parse_done nodes='188' live='179' memory='51432' stamp='0.114'/>
+</parse>
+<phase_done name='parse' nodes='190' live='134' stamp='0.114'/>
+</phase>
+<phase name='optimizer' nodes='190' live='134' stamp='0.114'>
+<phase name='idealLoop' nodes='190' live='126' stamp='0.114'>
+<loop_tree>
+<loop idx='196' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='197' live='116' stamp='0.114'/>
+</phase>
+<phase name='idealLoop' nodes='197' live='116' stamp='0.115'>
+<loop_tree>
+<loop idx='196' inner_loop='1' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='210' live='122' stamp='0.115'/>
+</phase>
+<phase name='idealLoop' nodes='210' live='122' stamp='0.115'>
+<loop_tree>
+<loop idx='281' inner_loop='1' main_loop='281' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='303' live='195' stamp='0.115'/>
+</phase>
+<phase name='ccp' nodes='303' live='195' stamp='0.115'>
+<phase_done name='ccp' nodes='303' live='195' stamp='0.115'/>
+</phase>
+<phase name='idealLoop' nodes='303' live='195' stamp='0.115'>
+<loop_tree>
+<loop idx='248' inner_loop='1' pre_loop='196' >
+</loop>
+<loop idx='326' inner_loop='1' main_loop='326' >
+</loop>
+<loop idx='221' inner_loop='1' post_loop='196' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='361' live='229' stamp='0.115'/>
+</phase>
+<phase name='idealLoop' nodes='361' live='229' stamp='0.115'>
+<loop_tree>
+<loop idx='248' inner_loop='1' pre_loop='196' >
+</loop>
+<loop idx='326' inner_loop='1' main_loop='326' >
+</loop>
+<loop idx='221' inner_loop='1' post_loop='196' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='366' live='217' stamp='0.115'/>
+</phase>
+<phase name='idealLoop' nodes='366' live='217' stamp='0.115'>
+<loop_tree>
+<loop idx='248' inner_loop='1' pre_loop='196' >
+</loop>
+<loop idx='326' inner_loop='1' main_loop='326' >
+</loop>
+<loop idx='221' inner_loop='1' post_loop='196' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='369' live='208' stamp='0.115'/>
+</phase>
+<phase_done name='optimizer' nodes='372' live='208' stamp='0.115'/>
+</phase>
+<phase name='matcher' nodes='372' live='208' stamp='0.115'>
+<phase_done name='matcher' nodes='169' live='169' stamp='0.116'/>
+</phase>
+<phase name='regalloc' nodes='242' live='242' stamp='0.116'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='251' live='249' stamp='0.116'/>
+</phase>
+<phase name='output' nodes='253' live='251' stamp='0.116'>
+<phase_done name='output' nodes='278' live='263' stamp='0.117'/>
+</phase>
+<code_cache total_blobs='192' nmethods='4' adapters='142' free_code_cache='49927360' largest_free_block='49917760'/>
+<task_done success='1' nmsize='424' count='413' backedge_count='7899' stamp='0.117'/>
+</task>
+<task compile_id='6' compile_kind='osr' method='cz/rank/ubench/osr/SynchronizationTest3 doTextY (I)V' bytes='80' count='10000' backedge_count='5151' iicount='1' osr_bci='7' stamp='0.122'>
+<phase name='parse' nodes='3' live='3' stamp='0.122'>
+<type id='636' name='void'/>
+<type id='634' name='int'/>
+<klass id='729' name='cz/rank/ubench/osr/SynchronizationTest3' flags='1'/>
+<method id='730' holder='729' name='doTextY' return='636' arguments='634' flags='2' bytes='80' iicount='1'/>
+<parse method='730' uses='1' osr_bci='7' stamp='0.122'>
+<dependency type='leaf_type' ctxk='729'/>
+<dependency type='leaf_type' ctxk='729'/>
+<uncommon_trap bci='7' reason='constraint' action='reinterpret'/>
+<uncommon_trap bci='7' reason='predicate' action='maybe_recompile'/>
+<uncommon_trap bci='7' reason='loop_limit_check' action='maybe_recompile'/>
+<bc code='162' bci='11'/>
+<branch target_bci='24' taken='0' not_taken='11987' cnt='11987' prob='never'/>
+<bc code='183' bci='15'/>
+<method id='739' holder='729' name='testY' return='636' flags='34' bytes='11' iicount='16251'/>
+<call method='739' count='11987' prof_factor='1' inline='1'/>
+<inline_success reason='inline (hot)'/>
+<parse method='739' uses='11987' stamp='0.122'>
+<uncommon_trap bci='15' reason='null_check' action='maybe_recompile'/>
+<parse_done nodes='169' live='164' memory='48688' stamp='0.123'/>
+</parse>
+<bc code='184' bci='24'/>
+<type id='635' name='long'/>
+<klass id='651' name='java/lang/System' flags='17'/>
+<method id='732' holder='651' name='nanoTime' return='635' flags='265' bytes='0' iicount='100'/>
+<call method='732' count='0' prof_factor='1' inline='1'/>
+<intrinsic id='_nanoTime' nodes='4'/>
+<bc code='164' bci='37'/>
+<branch target_bci='51' taken='0' not_taken='0'/>
+<bc code='180' bci='42'/>
+<uncommon_trap bci='42' reason='null_check' action='maybe_recompile'/>
+<bc code='184' bci='63'/>
+<klass id='715' name='java/lang/Integer' flags='17'/>
+<method id='736' holder='715' name='valueOf' return='715' arguments='634' flags='9' bytes='54' iicount='2'/>
+<call method='736' count='0' prof_factor='1' inline='1'/>
+<klass id='746' name='java/lang/AssertionError' unloaded='1'/>
+<uncommon_trap method='736' bci='14' reason='unloaded' action='reinterpret' index='156' klass='746'/>
+<inline_fail reason='too big'/>
+<direct_call bci='63'/>
+<bc code='83' bci='66'/>
+<observe that='!need_range_check'/>
+<bc code='184' bci='71'/>
+<klass id='716' name='java/lang/Long' flags='17'/>
+<method id='737' holder='716' name='valueOf' return='716' arguments='635' flags='9' bytes='36' iicount='1'/>
+<call method='737' count='0' prof_factor='1' inline='1'/>
+<klass id='749' name='java/lang/Long$LongCache' unloaded='1'/>
+<uncommon_trap method='737' bci='16' reason='unloaded' action='reinterpret' index='167' klass='749'/>
+<inline_fail reason='too big'/>
+<direct_call bci='71'/>
+<bc code='83' bci='74'/>
+<observe that='!need_range_check'/>
+<bc code='182' bci='75'/>
+<klass id='733' name='java/io/PrintStream' flags='1'/>
+<klass id='646' name='java/lang/String' flags='17'/>
+<klass id='735' name='[Ljava/lang/Object;' flags='1041'/>
+<method id='738' holder='733' name='format' return='733' arguments='646 735' flags='129' bytes='86' iicount='1'/>
+<dependency type='unique_concrete_method' ctxk='733' x='738'/>
+<call method='738' count='0' prof_factor='1' inline='1'/>
+<inline_fail reason='too big'/>
+<direct_call bci='75'/>
+<uncommon_trap bci='75' reason='null_check' action='maybe_recompile'/>
+<parse_done nodes='345' live='337' memory='87496' stamp='0.123'/>
+</parse>
+<phase_done name='parse' nodes='347' live='238' stamp='0.123'/>
+</phase>
+<phase name='optimizer' nodes='347' live='238' stamp='0.123'>
+<phase name='idealLoop' nodes='353' live='232' stamp='0.123'>
+<loop_tree>
+<loop idx='353' inner_loop='1' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='354' live='232' stamp='0.124'/>
+</phase>
+<phase name='escapeAnalysis' nodes='354' live='232' stamp='0.124'>
+<phase name='connectionGraph' nodes='355' live='233' stamp='0.124'>
+<phase_done name='connectionGraph' nodes='355' live='233' stamp='0.124'/>
+</phase>
+<phase_done name='escapeAnalysis' nodes='355' live='233' stamp='0.124'/>
+</phase>
+<phase name='idealLoop' nodes='355' live='233' stamp='0.124'>
+<loop_tree>
+<loop idx='353' inner_loop='1' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='413' live='265' stamp='0.124'/>
+</phase>
+<phase name='idealLoop' nodes='413' live='265' stamp='0.124'>
+<loop_tree>
+<loop idx='353' inner_loop='1' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='413' live='245' stamp='0.125'/>
+</phase>
+<phase name='idealLoop' nodes='413' live='245' stamp='0.125'>
+<loop_tree>
+<loop idx='353' inner_loop='1' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='413' live='245' stamp='0.125'/>
+</phase>
+<phase name='ccp' nodes='413' live='245' stamp='0.125'>
+<phase_done name='ccp' nodes='413' live='245' stamp='0.125'/>
+</phase>
+<phase name='idealLoop' nodes='415' live='242' stamp='0.125'>
+<loop_tree>
+<loop idx='353' inner_loop='1' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='418' live='242' stamp='0.125'/>
+</phase>
+<dependency type='leaf_type' ctxk='729'/>
+<dependency type='leaf_type' ctxk='729'/>
+<phase_done name='optimizer' nodes='651' live='431' stamp='0.126'/>
+</phase>
+<phase name='matcher' nodes='651' live='431' stamp='0.126'>
+<phase_done name='matcher' nodes='400' live='400' stamp='0.126'/>
+</phase>
+<phase name='regalloc' nodes='516' live='516' stamp='0.127'>
+<regalloc attempts='2' success='1'/>
+<phase_done name='regalloc' nodes='682' live='620' stamp='0.131'/>
+</phase>
+<phase name='output' nodes='686' live='624' stamp='0.131'>
+<phase_done name='output' nodes='712' live='642' stamp='0.131'/>
+</phase>
+<dependency type='leaf_type' ctxk='729'/>
+<dependency type='unique_concrete_method' ctxk='733' x='738'/>
+<code_cache total_blobs='201' nmethods='6' adapters='149' free_code_cache='49919168' largest_free_block='49903808'/>
+<task_done success='1' nmsize='1672' count='10000' backedge_count='5967' inlined_bytes='11' stamp='0.131'/>
+</task>
+<task compile_id='8' compile_kind='osr' method='cz/rank/ubench/osr/SynchronizationTest3 doTestZ (I)V' bytes='80' count='10000' backedge_count='5210' iicount='1' osr_bci='7' stamp='0.247'>
+<phase name='parse' nodes='3' live='3' stamp='0.248'>
+<type id='636' name='void'/>
+<type id='634' name='int'/>
+<klass id='729' name='cz/rank/ubench/osr/SynchronizationTest3' flags='1'/>
+<method id='730' holder='729' name='doTestZ' return='636' arguments='634' flags='2' bytes='80' iicount='1'/>
+<parse method='730' uses='1' osr_bci='7' stamp='0.248'>
+<dependency type='leaf_type' ctxk='729'/>
+<dependency type='leaf_type' ctxk='729'/>
+<uncommon_trap bci='7' reason='constraint' action='reinterpret'/>
+<uncommon_trap bci='7' reason='predicate' action='maybe_recompile'/>
+<uncommon_trap bci='7' reason='loop_limit_check' action='maybe_recompile'/>
+<bc code='162' bci='11'/>
+<branch target_bci='24' taken='0' not_taken='12196' cnt='12196' prob='never'/>
+<bc code='183' bci='15'/>
+<method id='739' holder='729' name='testZ' return='636' flags='2' bytes='25' iicount='16581'/>
+<call method='739' count='12196' prof_factor='1' inline='1'/>
+<inline_success reason='inline (hot)'/>
+<parse method='739' uses='12196' stamp='0.249'>
+<observe that='has_exception_handlers'/>
+<uncommon_trap bci='15' reason='null_check' action='maybe_recompile'/>
+<parse_done nodes='170' live='165' memory='48824' stamp='0.249'/>
+</parse>
+<bc code='184' bci='24'/>
+<type id='635' name='long'/>
+<klass id='651' name='java/lang/System' flags='17'/>
+<method id='732' holder='651' name='nanoTime' return='635' flags='265' bytes='0' iicount='101'/>
+<call method='732' count='0' prof_factor='1' inline='1'/>
+<intrinsic id='_nanoTime' nodes='4'/>
+<bc code='164' bci='37'/>
+<branch target_bci='51' taken='0' not_taken='0'/>
+<bc code='180' bci='42'/>
+<uncommon_trap bci='42' reason='null_check' action='maybe_recompile'/>
+<bc code='184' bci='63'/>
+<klass id='715' name='java/lang/Integer' flags='17'/>
+<method id='736' holder='715' name='valueOf' return='715' arguments='634' flags='9' bytes='54' iicount='3'/>
+<call method='736' count='0' prof_factor='1' inline='1'/>
+<klass id='746' name='java/lang/AssertionError' unloaded='1'/>
+<uncommon_trap method='736' bci='14' reason='unloaded' action='reinterpret' index='156' klass='746'/>
+<inline_fail reason='too big'/>
+<direct_call bci='63'/>
+<bc code='83' bci='66'/>
+<observe that='!need_range_check'/>
+<bc code='184' bci='71'/>
+<klass id='716' name='java/lang/Long' flags='17'/>
+<method id='737' holder='716' name='valueOf' return='716' arguments='635' flags='9' bytes='36' iicount='2'/>
+<call method='737' count='0' prof_factor='1' inline='1'/>
+<klass id='749' name='java/lang/Long$LongCache' unloaded='1'/>
+<uncommon_trap method='737' bci='16' reason='unloaded' action='reinterpret' index='167' klass='749'/>
+<inline_fail reason='too big'/>
+<direct_call bci='71'/>
+<bc code='83' bci='74'/>
+<observe that='!need_range_check'/>
+<bc code='182' bci='75'/>
+<klass id='733' name='java/io/PrintStream' flags='1'/>
+<klass id='646' name='java/lang/String' flags='17'/>
+<klass id='735' name='[Ljava/lang/Object;' flags='1041'/>
+<method id='738' holder='733' name='format' return='733' arguments='646 735' flags='129' bytes='86' iicount='2'/>
+<dependency type='unique_concrete_method' ctxk='733' x='738'/>
+<call method='738' count='0' prof_factor='1' inline='1'/>
+<inline_fail reason='too big'/>
+<direct_call bci='75'/>
+<uncommon_trap bci='75' reason='null_check' action='maybe_recompile'/>
+<parse_done nodes='347' live='339' memory='87648' stamp='0.251'/>
+</parse>
+<phase_done name='parse' nodes='349' live='239' stamp='0.251'/>
+</phase>
+<phase name='optimizer' nodes='349' live='239' stamp='0.251'>
+<phase name='idealLoop' nodes='355' live='233' stamp='0.251'>
+<loop_tree>
+<loop idx='355' inner_loop='1' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='356' live='233' stamp='0.252'/>
+</phase>
+<phase name='escapeAnalysis' nodes='356' live='233' stamp='0.252'>
+<phase name='connectionGraph' nodes='357' live='234' stamp='0.252'>
+<phase_done name='connectionGraph' nodes='357' live='234' stamp='0.252'/>
+</phase>
+<phase_done name='escapeAnalysis' nodes='357' live='234' stamp='0.252'/>
+</phase>
+<phase name='idealLoop' nodes='357' live='234' stamp='0.252'>
+<loop_tree>
+<loop idx='355' inner_loop='1' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='415' live='266' stamp='0.253'/>
+</phase>
+<phase name='idealLoop' nodes='415' live='266' stamp='0.253'>
+<loop_tree>
+<loop idx='355' inner_loop='1' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='415' live='246' stamp='0.253'/>
+</phase>
+<phase name='idealLoop' nodes='415' live='246' stamp='0.253'>
+<loop_tree>
+<loop idx='355' inner_loop='1' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='415' live='246' stamp='0.254'/>
+</phase>
+<phase name='ccp' nodes='415' live='246' stamp='0.254'>
+<phase_done name='ccp' nodes='415' live='246' stamp='0.254'/>
+</phase>
+<phase name='idealLoop' nodes='417' live='243' stamp='0.254'>
+<loop_tree>
+<loop idx='355' inner_loop='1' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='420' live='243' stamp='0.255'/>
+</phase>
+<dependency type='leaf_type' ctxk='729'/>
+<dependency type='leaf_type' ctxk='729'/>
+<phase_done name='optimizer' nodes='653' live='432' stamp='0.256'/>
+</phase>
+<phase name='matcher' nodes='653' live='432' stamp='0.256'>
+<phase_done name='matcher' nodes='400' live='400' stamp='0.257'/>
+</phase>
+<phase name='regalloc' nodes='516' live='516' stamp='0.258'>
+<regalloc attempts='2' success='1'/>
+<phase_done name='regalloc' nodes='682' live='620' stamp='0.265'/>
+</phase>
+<phase name='output' nodes='686' live='624' stamp='0.265'>
+<phase_done name='output' nodes='712' live='642' stamp='0.265'/>
+</phase>
+<dependency type='leaf_type' ctxk='729'/>
+<dependency type='unique_concrete_method' ctxk='733' x='738'/>
+<code_cache total_blobs='203' nmethods='8' adapters='149' free_code_cache='49914624' largest_free_block='49903808'/>
+<task_done success='1' nmsize='1672' count='10000' backedge_count='5505' inlined_bytes='25' stamp='0.265'/>
+</task>
+<task compile_id='10' compile_kind='osr' method='cz/rank/ubench/osr/SynchronizationTest3 doTestV (I)V' bytes='80' count='10000' backedge_count='5286' iicount='1' osr_bci='7' stamp='0.378'>
+<phase name='parse' nodes='3' live='3' stamp='0.379'>
+<type id='636' name='void'/>
+<type id='634' name='int'/>
+<klass id='729' name='cz/rank/ubench/osr/SynchronizationTest3' flags='1'/>
+<method id='730' holder='729' name='doTestV' return='636' arguments='634' flags='2' bytes='80' iicount='1'/>
+<parse method='730' uses='1' osr_bci='7' stamp='0.379'>
+<dependency type='leaf_type' ctxk='729'/>
+<dependency type='leaf_type' ctxk='729'/>
+<uncommon_trap bci='7' reason='constraint' action='reinterpret'/>
+<uncommon_trap bci='7' reason='predicate' action='maybe_recompile'/>
+<uncommon_trap bci='7' reason='loop_limit_check' action='maybe_recompile'/>
+<bc code='162' bci='11'/>
+<branch target_bci='24' taken='0' not_taken='13183' cnt='13183' prob='never'/>
+<bc code='183' bci='15'/>
+<method id='739' holder='729' name='testV' return='636' flags='2' bytes='11' compile_id='9' compiler='C2' iicount='15416'/>
+<call method='739' count='13183' prof_factor='1' inline='1'/>
+<inline_success reason='inline (hot)'/>
+<parse method='739' uses='13183' stamp='0.379'>
+<uncommon_trap bci='15' reason='null_check' action='maybe_recompile'/>
+<parse_done nodes='162' live='157' memory='46808' stamp='0.380'/>
+</parse>
+<bc code='184' bci='24'/>
+<type id='635' name='long'/>
+<klass id='651' name='java/lang/System' flags='17'/>
+<method id='732' holder='651' name='nanoTime' return='635' flags='265' bytes='0' iicount='102'/>
+<call method='732' count='0' prof_factor='1' inline='1'/>
+<intrinsic id='_nanoTime' nodes='4'/>
+<bc code='164' bci='37'/>
+<branch target_bci='51' taken='0' not_taken='0'/>
+<bc code='180' bci='42'/>
+<uncommon_trap bci='42' reason='null_check' action='maybe_recompile'/>
+<bc code='184' bci='63'/>
+<klass id='715' name='java/lang/Integer' flags='17'/>
+<method id='736' holder='715' name='valueOf' return='715' arguments='634' flags='9' bytes='54' iicount='4'/>
+<call method='736' count='0' prof_factor='1' inline='1'/>
+<klass id='746' name='java/lang/AssertionError' unloaded='1'/>
+<uncommon_trap method='736' bci='14' reason='unloaded' action='reinterpret' index='156' klass='746'/>
+<inline_fail reason='too big'/>
+<direct_call bci='63'/>
+<bc code='83' bci='66'/>
+<observe that='!need_range_check'/>
+<bc code='184' bci='71'/>
+<klass id='716' name='java/lang/Long' flags='17'/>
+<method id='737' holder='716' name='valueOf' return='716' arguments='635' flags='9' bytes='36' iicount='3'/>
+<call method='737' count='0' prof_factor='1' inline='1'/>
+<klass id='749' name='java/lang/Long$LongCache' unloaded='1'/>
+<uncommon_trap method='737' bci='16' reason='unloaded' action='reinterpret' index='167' klass='749'/>
+<inline_fail reason='too big'/>
+<direct_call bci='71'/>
+<bc code='83' bci='74'/>
+<observe that='!need_range_check'/>
+<bc code='182' bci='75'/>
+<klass id='733' name='java/io/PrintStream' flags='1'/>
+<klass id='646' name='java/lang/String' flags='17'/>
+<klass id='735' name='[Ljava/lang/Object;' flags='1041'/>
+<method id='738' holder='733' name='format' return='733' arguments='646 735' flags='129' bytes='86' iicount='3'/>
+<dependency type='unique_concrete_method' ctxk='733' x='738'/>
+<call method='738' count='0' prof_factor='1' inline='1'/>
+<inline_fail reason='too big'/>
+<direct_call bci='75'/>
+<uncommon_trap bci='75' reason='null_check' action='maybe_recompile'/>
+<parse_done nodes='338' live='330' memory='85016' stamp='0.381'/>
+</parse>
+<phase_done name='parse' nodes='340' live='230' stamp='0.381'/>
+</phase>
+<phase name='optimizer' nodes='340' live='230' stamp='0.381'>
+<phase name='idealLoop' nodes='346' live='224' stamp='0.382'>
+<loop_tree>
+<loop idx='346' inner_loop='1' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='347' live='224' stamp='0.382'/>
+</phase>
+<phase name='escapeAnalysis' nodes='347' live='224' stamp='0.382'>
+<phase name='connectionGraph' nodes='348' live='225' stamp='0.382'>
+<phase_done name='connectionGraph' nodes='348' live='225' stamp='0.383'/>
+</phase>
+<phase_done name='escapeAnalysis' nodes='348' live='225' stamp='0.383'/>
+</phase>
+<phase name='idealLoop' nodes='348' live='225' stamp='0.383'>
+<loop_tree>
+<loop idx='346' inner_loop='1' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='409' live='235' stamp='0.383'/>
+</phase>
+<phase name='idealLoop' nodes='409' live='235' stamp='0.383'>
+<loop_tree>
+<loop idx='414' main_loop='414' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='505' live='290' stamp='0.384'/>
+</phase>
+<phase name='idealLoop' nodes='505' live='290' stamp='0.384'>
+<loop_tree>
+<loop idx='465' inner_loop='1' pre_loop='414' >
+</loop>
+<loop idx='513' inner_loop='1' main_loop='513' >
+</loop>
+<loop idx='423' inner_loop='1' post_loop='414' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='533' live='302' stamp='0.385'/>
+</phase>
+<phase name='ccp' nodes='533' live='302' stamp='0.385'>
+<phase_done name='ccp' nodes='533' live='302' stamp='0.385'/>
+</phase>
+<phase name='idealLoop' nodes='536' live='297' stamp='0.385'>
+<loop_tree>
+<loop idx='465' inner_loop='1' pre_loop='414' >
+</loop>
+<loop idx='513' inner_loop='1' main_loop='513' >
+</loop>
+<loop idx='423' inner_loop='1' post_loop='414' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='546' live='292' stamp='0.386'/>
+</phase>
+<phase name='idealLoop' nodes='546' live='292' stamp='0.386'>
+<loop_tree>
+<loop idx='465' inner_loop='1' pre_loop='414' >
+</loop>
+<loop idx='587' inner_loop='1' main_loop='587' >
+</loop>
+<loop idx='423' inner_loop='1' post_loop='414' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='595' live='320' stamp='0.387'/>
+</phase>
+<phase name='idealLoop' nodes='595' live='320' stamp='0.387'>
+<loop_tree>
+<loop idx='465' inner_loop='1' pre_loop='414' >
+</loop>
+<loop idx='623' inner_loop='1' main_loop='623' >
+</loop>
+<loop idx='423' inner_loop='1' post_loop='414' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='670' live='374' stamp='0.387'/>
+</phase>
+<phase name='idealLoop' nodes='670' live='374' stamp='0.387'>
+<loop_tree>
+<loop idx='465' inner_loop='1' pre_loop='414' >
+</loop>
+<loop idx='623' inner_loop='1' main_loop='623' >
+</loop>
+<loop idx='423' inner_loop='1' post_loop='414' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='679' live='371' stamp='0.388'/>
+</phase>
+<phase_done name='optimizer' nodes='746' live='415' stamp='0.389'/>
+</phase>
+<phase name='matcher' nodes='746' live='415' stamp='0.389'>
+<phase_done name='matcher' nodes='407' live='407' stamp='0.390'/>
+</phase>
+<phase name='regalloc' nodes='476' live='476' stamp='0.391'>
+<regalloc attempts='1' success='1'/>
+<phase_done name='regalloc' nodes='529' live='508' stamp='0.395'/>
+</phase>
+<phase name='output' nodes='531' live='510' stamp='0.395'>
+<phase_done name='output' nodes='556' live='526' stamp='0.395'/>
+</phase>
+<dependency type='leaf_type' ctxk='729'/>
+<dependency type='unique_concrete_method' ctxk='733' x='738'/>
+<code_cache total_blobs='205' nmethods='10' adapters='149' free_code_cache='49911488' largest_free_block='49901440'/>
+<task_done success='1' nmsize='840' count='10000' backedge_count='5602' inlined_bytes='11' stamp='0.395'/>
+</task>
+<task compile_id='12' compile_kind='osr' method='cz/rank/ubench/osr/SynchronizationTest3 doTestX (I)V' bytes='80' count='10000' backedge_count='5361' iicount='2' decompiles='1' null_assert_traps='1' osr_bci='7' stamp='0.447'>
+<phase name='parse' nodes='3' live='3' stamp='0.447'>
+<type id='636' name='void'/>
+<type id='634' name='int'/>
+<klass id='729' name='cz/rank/ubench/osr/SynchronizationTest3' flags='1'/>
+<method id='730' holder='729' name='doTestX' return='636' arguments='634' flags='2' bytes='80' compile_id='11' compiler='C2' iicount='2'/>
+<parse method='730' uses='2' osr_bci='7' stamp='0.447'>
+<observe trap='null_assert' count='1' total='1'/>
+<dependency type='leaf_type' ctxk='729'/>
+<dependency type='leaf_type' ctxk='729'/>
+<uncommon_trap bci='7' reason='constraint' action='reinterpret'/>
+<uncommon_trap bci='7' reason='predicate' action='maybe_recompile'/>
+<uncommon_trap bci='7' reason='loop_limit_check' action='maybe_recompile'/>
+<bc code='162' bci='11'/>
+<branch target_bci='24' taken='0' not_taken='445792' cnt='445792' prob='never'/>
+<bc code='183' bci='15'/>
+<method id='739' holder='729' name='testX' return='636' flags='2' bytes='11' compile_id='3' compiler='C2' iicount='88907'/>
+<call method='739' count='445792' prof_factor='1' inline='1'/>
+<inline_success reason='inline (hot)'/>
+<parse method='739' uses='445792' stamp='0.447'>
+<uncommon_trap bci='15' reason='null_check' action='maybe_recompile'/>
+<parse_done nodes='153' live='148' memory='46272' stamp='0.447'/>
+</parse>
+<bc code='184' bci='24'/>
+<type id='635' name='long'/>
+<klass id='651' name='java/lang/System' flags='17'/>
+<method id='733' holder='651' name='nanoTime' return='635' flags='265' bytes='0' iicount='103'/>
+<call method='733' count='0' prof_factor='1' inline='1'/>
+<intrinsic id='_nanoTime' nodes='4'/>
+<bc code='164' bci='37'/>
+<branch target_bci='51' taken='0' not_taken='0'/>
+<bc code='180' bci='42'/>
+<uncommon_trap bci='42' reason='null_check' action='maybe_recompile'/>
+<bc code='184' bci='63'/>
+<klass id='715' name='java/lang/Integer' flags='17'/>
+<method id='736' holder='715' name='valueOf' return='715' arguments='634' flags='9' bytes='54' iicount='5'/>
+<call method='736' count='1' prof_factor='1' inline='1'/>
+<klass id='746' name='java/lang/AssertionError' unloaded='1'/>
+<uncommon_trap method='736' bci='14' reason='unloaded' action='reinterpret' index='156' klass='746'/>
+<inline_fail reason='too big'/>
+<direct_call bci='63'/>
+<bc code='83' bci='66'/>
+<observe that='!need_range_check'/>
+<bc code='184' bci='71'/>
+<klass id='716' name='java/lang/Long' flags='17'/>
+<method id='737' holder='716' name='valueOf' return='716' arguments='635' flags='9' bytes='36' iicount='4'/>
+<call method='737' count='1' prof_factor='1' inline='1'/>
+<klass id='749' name='java/lang/Long$LongCache' unloaded='1'/>
+<uncommon_trap method='737' bci='16' reason='unloaded' action='reinterpret' index='167' klass='749'/>
+<inline_fail reason='too big'/>
+<direct_call bci='71'/>
+<bc code='83' bci='74'/>
+<observe that='!need_range_check'/>
+<bc code='182' bci='75'/>
+<klass id='732' name='java/io/PrintStream' flags='1'/>
+<klass id='646' name='java/lang/String' flags='17'/>
+<klass id='735' name='[Ljava/lang/Object;' flags='1041'/>
+<method id='738' holder='732' name='format' return='732' arguments='646 735' flags='129' bytes='86' iicount='4'/>
+<dependency type='unique_concrete_method' ctxk='732' x='738'/>
+<call method='738' count='1' prof_factor='1' inline='1'/>
+<inline_fail reason='too big'/>
+<direct_call bci='75'/>
+<uncommon_trap bci='75' reason='null_check' action='maybe_recompile'/>
+<parse_done nodes='330' live='322' memory='83744' stamp='0.449'/>
+</parse>
+<phase_done name='parse' nodes='332' live='222' stamp='0.449'/>
+</phase>
+<phase name='optimizer' nodes='332' live='222' stamp='0.449'>
+<phase name='idealLoop' nodes='342' live='215' stamp='0.450'>
+<loop_tree>
+<loop idx='342' inner_loop='1' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='343' live='215' stamp='0.450'/>
+</phase>
+<phase name='escapeAnalysis' nodes='343' live='215' stamp='0.450'>
+<phase name='connectionGraph' nodes='344' live='216' stamp='0.450'>
+<phase_done name='connectionGraph' nodes='344' live='216' stamp='0.451'/>
+</phase>
+<phase_done name='escapeAnalysis' nodes='344' live='216' stamp='0.451'/>
+</phase>
+<phase name='idealLoop' nodes='344' live='216' stamp='0.451'>
+<loop_tree>
+<loop idx='342' inner_loop='1' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='379' live='223' stamp='0.451'/>
+</phase>
+<phase name='idealLoop' nodes='379' live='223' stamp='0.451'>
+<loop_tree>
+<loop idx='384' main_loop='384' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='446' live='253' stamp='0.452'/>
+</phase>
+<phase name='idealLoop' nodes='446' live='253' stamp='0.452'>
+<loop_tree>
+<loop idx='419' inner_loop='1' pre_loop='384' >
+</loop>
+<loop idx='453' inner_loop='1' main_loop='453' >
+</loop>
+<loop idx='392' inner_loop='1' post_loop='384' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='462' live='254' stamp='0.453'/>
+</phase>
+<phase name='ccp' nodes='462' live='254' stamp='0.453'>
+<phase_done name='ccp' nodes='462' live='254' stamp='0.453'/>
+</phase>
+<phase name='idealLoop' nodes='465' live='249' stamp='0.453'>
+<loop_tree>
+<loop idx='419' inner_loop='1' pre_loop='384' >
+</loop>
+<loop idx='453' inner_loop='1' main_loop='453' >
+</loop>
+<loop idx='392' inner_loop='1' post_loop='384' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='472' live='246' stamp='0.454'/>
+</phase>
+<phase name='idealLoop' nodes='472' live='246' stamp='0.454'>
+<loop_tree>
+<loop idx='419' inner_loop='1' pre_loop='384' >
+</loop>
+<loop idx='453' inner_loop='1' main_loop='453' >
+</loop>
+<loop idx='392' inner_loop='1' post_loop='384' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='485' live='248' stamp='0.454'/>
+</phase>
+<phase name='idealLoop' nodes='485' live='248' stamp='0.454'>
+<loop_tree>
+<loop idx='419' inner_loop='1' pre_loop='384' >
+</loop>
+<loop idx='505' inner_loop='1' main_loop='505' >
+</loop>
+<loop idx='392' inner_loop='1' post_loop='384' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='519' live='252' stamp='0.455'/>
+</phase>
+<phase name='idealLoop' nodes='519' live='252' stamp='0.455'>
+<loop_tree>
+<loop idx='419' inner_loop='1' pre_loop='384' >
+</loop>
+<loop idx='532' inner_loop='1' main_loop='532' >
+</loop>
+<loop idx='392' inner_loop='1' post_loop='384' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='540' live='255' stamp='0.455'/>
+</phase>
+<phase name='idealLoop' nodes='540' live='255' stamp='0.455'>
+<loop_tree>
+<loop idx='419' inner_loop='1' pre_loop='384' >
+</loop>
+<loop idx='556' inner_loop='1' main_loop='556' >
+</loop>
+<loop idx='392' inner_loop='1' post_loop='384' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='567' live='258' stamp='0.455'/>
+</phase>
+<phase name='idealLoop' nodes='567' live='258' stamp='0.455'>
+<loop_tree>
+<loop idx='419' inner_loop='1' pre_loop='384' >
+</loop>
+<loop idx='556' inner_loop='1' main_loop='556' >
+</loop>
+<loop idx='392' inner_loop='1' post_loop='384' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='570' live='254' stamp='0.456'/>
+</phase>
+<phase_done name='optimizer' nodes='636' live='297' stamp='0.456'/>
+</phase>
+<phase name='matcher' nodes='636' live='297' stamp='0.456'>
+<phase_done name='matcher' nodes='272' live='272' stamp='0.456'/>
+</phase>
+<phase name='regalloc' nodes='341' live='341' stamp='0.456'>
+<regalloc attempts='1' success='1'/>
+<phase_done name='regalloc' nodes='389' live='376' stamp='0.458'/>
+</phase>
+<phase name='output' nodes='391' live='378' stamp='0.458'>
+<phase_done name='output' nodes='417' live='393' stamp='0.458'/>
+</phase>
+<dependency type='leaf_type' ctxk='729'/>
+<dependency type='unique_concrete_method' ctxk='732' x='738'/>
+<code_cache total_blobs='207' nmethods='12' adapters='149' free_code_cache='49907200' largest_free_block='49899200'/>
+<task_done success='1' nmsize='712' count='10000' backedge_count='5915' inlined_bytes='11' stamp='0.458'/>
+</task>
+<task compile_id='14' method='cz/rank/ubench/osr/SynchronizationTest3 doTestZ (I)V' bytes='80' count='5000' backedge_count='5892' iicount='2' stamp='0.576'>
+<phase name='parse' nodes='3' live='3' stamp='0.576'>
+<type id='636' name='void'/>
+<type id='634' name='int'/>
+<klass id='729' name='cz/rank/ubench/osr/SynchronizationTest3' flags='1'/>
+<method id='730' holder='729' name='doTestZ' return='636' arguments='634' flags='2' bytes='80' iicount='2'/>
+<parse method='730' uses='2' stamp='0.576'>
+<bc code='184' bci='0'/>
+<type id='635' name='long'/>
+<klass id='651' name='java/lang/System' flags='17'/>
+<method id='732' holder='651' name='nanoTime' return='635' flags='265' bytes='0' iicount='105'/>
+<call method='732' count='1' prof_factor='1' inline='1'/>
+<intrinsic id='_nanoTime' nodes='4'/>
+<bc code='162' bci='11'/>
+<branch target_bci='24' taken='0' not_taken='247808' cnt='247808' prob='never'/>
+<uncommon_trap bci='14' reason='predicate' action='maybe_recompile'/>
+<uncommon_trap bci='14' reason='loop_limit_check' action='maybe_recompile'/>
+<bc code='183' bci='15'/>
+<method id='739' holder='729' name='testZ' return='636' flags='2' bytes='25' compile_id='7' compiler='C2' iicount='26742'/>
+<call method='739' count='247808' prof_factor='1' inline='1'/>
+<inline_success reason='inline (hot)'/>
+<parse method='739' uses='247808' stamp='0.576'>
+<observe that='has_exception_handlers'/>
+<parse_done nodes='108' live='105' memory='37568' stamp='0.577'/>
+</parse>
+<bc code='162' bci='11'/>
+<branch target_bci='24' taken='0' not_taken='247808' cnt='247808' prob='never'/>
+<bc code='184' bci='24'/>
+<call method='732' count='0' prof_factor='1' inline='1'/>
+<intrinsic id='_nanoTime' nodes='4'/>
+<bc code='164' bci='37'/>
+<branch target_bci='51' taken='0' not_taken='0'/>
+<bc code='184' bci='63'/>
+<klass id='715' name='java/lang/Integer' flags='17'/>
+<method id='736' holder='715' name='valueOf' return='715' arguments='634' flags='9' bytes='54' iicount='7'/>
+<call method='736' count='0' prof_factor='1' inline='1'/>
+<klass id='746' name='java/lang/AssertionError' unloaded='1'/>
+<uncommon_trap method='736' bci='14' reason='unloaded' action='reinterpret' index='156' klass='746'/>
+<inline_fail reason='too big'/>
+<direct_call bci='63'/>
+<bc code='83' bci='66'/>
+<observe that='!need_range_check'/>
+<bc code='184' bci='71'/>
+<klass id='716' name='java/lang/Long' flags='17'/>
+<method id='737' holder='716' name='valueOf' return='716' arguments='635' flags='9' bytes='36' iicount='6'/>
+<call method='737' count='0' prof_factor='1' inline='1'/>
+<klass id='749' name='java/lang/Long$LongCache' unloaded='1'/>
+<uncommon_trap method='737' bci='16' reason='unloaded' action='reinterpret' index='167' klass='749'/>
+<inline_fail reason='too big'/>
+<direct_call bci='71'/>
+<bc code='83' bci='74'/>
+<observe that='!need_range_check'/>
+<bc code='182' bci='75'/>
+<klass id='733' name='java/io/PrintStream' flags='1'/>
+<klass id='646' name='java/lang/String' flags='17'/>
+<klass id='735' name='[Ljava/lang/Object;' flags='1041'/>
+<method id='738' holder='733' name='format' return='733' arguments='646 735' flags='129' bytes='86' iicount='6'/>
+<dependency type='unique_concrete_method' ctxk='733' x='738'/>
+<call method='738' count='0' prof_factor='1' inline='1'/>
+<inline_fail reason='too big'/>
+<direct_call bci='75'/>
+<uncommon_trap bci='75' reason='null_check' action='maybe_recompile'/>
+<parse_done nodes='284' live='279' memory='75936' stamp='0.578'/>
+</parse>
+<phase_done name='parse' nodes='286' live='184' stamp='0.578'/>
+</phase>
+<phase name='optimizer' nodes='286' live='184' stamp='0.578'>
+<phase name='idealLoop' nodes='286' live='179' stamp='0.579'>
+<loop_tree>
+<loop idx='292' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='293' live='177' stamp='0.579'/>
+</phase>
+<phase name='escapeAnalysis' nodes='293' live='177' stamp='0.579'>
+<phase name='connectionGraph' nodes='294' live='178' stamp='0.579'>
+<phase_done name='connectionGraph' nodes='294' live='178' stamp='0.580'/>
+</phase>
+<phase_done name='escapeAnalysis' nodes='294' live='178' stamp='0.580'/>
+</phase>
+<phase name='idealLoop' nodes='294' live='178' stamp='0.580'>
+<loop_tree>
+<loop idx='411' inner_loop='1' main_loop='411' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='423' live='281' stamp='0.580'/>
+</phase>
+<phase name='idealLoop' nodes='423' live='281' stamp='0.580'>
+<loop_tree>
+<loop idx='365' inner_loop='1' pre_loop='292' >
+</loop>
+<loop idx='440' inner_loop='1' main_loop='440' >
+</loop>
+<loop idx='318' inner_loop='1' post_loop='292' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='480' live='321' stamp='0.581'/>
+</phase>
+<phase name='idealLoop' nodes='480' live='321' stamp='0.581'>
+<loop_tree>
+<loop idx='365' inner_loop='1' pre_loop='292' >
+</loop>
+<loop idx='440' inner_loop='1' main_loop='440' >
+</loop>
+<loop idx='318' inner_loop='1' post_loop='292' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='480' live='321' stamp='0.582'/>
+</phase>
+<phase name='ccp' nodes='480' live='321' stamp='0.582'>
+<phase_done name='ccp' nodes='480' live='321' stamp='0.582'/>
+</phase>
+<phase name='idealLoop' nodes='480' live='321' stamp='0.582'>
+<loop_tree>
+<loop idx='365' inner_loop='1' pre_loop='292' >
+</loop>
+<loop idx='440' inner_loop='1' main_loop='440' >
+</loop>
+<loop idx='318' inner_loop='1' post_loop='292' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='480' live='305' stamp='0.583'/>
+</phase>
+<phase name='idealLoop' nodes='480' live='305' stamp='0.583'>
+<loop_tree>
+<loop idx='365' inner_loop='1' pre_loop='292' >
+</loop>
+<loop idx='440' inner_loop='1' main_loop='440' >
+</loop>
+<loop idx='318' inner_loop='1' post_loop='292' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='481' live='280' stamp='0.584'/>
+</phase>
+<eliminate_lock lock='0'>
+</eliminate_lock>
+<eliminate_lock lock='1'>
+<jvms bci='3' method='739'/>
+<jvms bci='15' method='730'/>
+</eliminate_lock>
+<eliminate_lock lock='0'>
+</eliminate_lock>
+<eliminate_lock lock='0'>
+</eliminate_lock>
+<eliminate_lock lock='1'>
+<jvms bci='3' method='739'/>
+<jvms bci='15' method='730'/>
+</eliminate_lock>
+<eliminate_lock lock='1'>
+<jvms bci='3' method='739'/>
+<jvms bci='15' method='730'/>
+</eliminate_lock>
+<dependency type='leaf_type' ctxk='729'/>
+<dependency type='leaf_type' ctxk='729'/>
+<dependency type='leaf_type' ctxk='729'/>
+<phase_done name='optimizer' nodes='788' live='478' stamp='0.585'/>
+</phase>
+<phase name='matcher' nodes='788' live='478' stamp='0.585'>
+<phase_done name='matcher' nodes='453' live='453' stamp='0.586'/>
+</phase>
+<phase name='regalloc' nodes='589' live='589' stamp='0.587'>
+<regalloc attempts='1' success='1'/>
+<phase_done name='regalloc' nodes='720' live='690' stamp='0.590'/>
+</phase>
+<phase name='output' nodes='726' live='696' stamp='0.590'>
+<phase_done name='output' nodes='752' live='712' stamp='0.590'/>
+</phase>
+<dependency type='leaf_type' ctxk='729'/>
+<dependency type='unique_concrete_method' ctxk='733' x='738'/>
+<code_cache total_blobs='209' nmethods='14' adapters='149' free_code_cache='49899648' largest_free_block='49891264'/>
+<task_done success='1' nmsize='2024' count='5000' backedge_count='6024' inlined_bytes='25' stamp='0.590'/>
+</task>
+</compilation_log>
+<hotspot_log_done stamp='1.868'/>
+</hotspot_log>
