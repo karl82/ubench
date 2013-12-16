@@ -1,0 +1,26 @@
+Randomized total= 209,611,990 ns; avg=   2,096,119 ns
+Sorted total= 210,629,610 ns; avg=   2,106,296 ns
+Over half total=99899400
+
+ Performance counter stats for 'java -cp target/classes cz.rank.ubench.bp.BranchPrediction2':
+
+      37650.626488 task-clock                #    1.004 CPUs utilized          
+              1110 context-switches          #    0.029 K/sec                  
+               127 CPU-migrations            #    0.003 K/sec                  
+              7760 page-faults               #    0.206 K/sec                  
+       65128586602 cycles                    #    1.730 GHz                     [40.03%]
+       32290845302 stalled-cycles-frontend   #   49.58% frontend cycles idle    [40.02%]
+        1001384172 stalled-cycles-backend    #    1.54% backend  cycles idle    [40.00%]
+      112276210776 instructions              #    1.72  insns per cycle        
+                                             #    0.29  stalled cycles per insn [50.00%]
+        2765201772 branches                  #   73.444 M/sec                   [49.99%]
+          13912791 branch-misses             #    0.50% of all branches         [50.00%]
+       20626783876 L1-dcache-loads           #  547.847 M/sec                   [50.02%]
+        1281254890 L1-dcache-load-misses     #    6.21% of all L1-dcache hits   [50.02%]
+          66708819 LLC-loads                 #    1.772 M/sec                   [40.03%]
+            524906 LLC-load-misses           #    0.79% of all LL-cache hits    [40.05%]
+
+      37.493704913 seconds time elapsed
+
+CPU E5-2650
+1.7.0_45-b18

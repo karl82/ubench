@@ -1,0 +1,6 @@
+Randomized total= 105,430,714 ns; avg=   1,054,307 ns
+Sorted total= 132,543,099 ns; avg=   1,325,430 ns
+Over half total=100090000
+
+CPU i5 660
+1.6.0_06-b02
